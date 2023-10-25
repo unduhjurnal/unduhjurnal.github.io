@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma - BELAJAR</title>
+    <meta name="description" content="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma, , , , , , , 0, , , , , , 0, contoh-jurnal-distributed-process-dalam-mpi-untuk-pengolahan-bilangan-proma, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma - BELAJAR" />
+    <meta property="og:description" content="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma, , , , , , , 0, , , , , , 0, contoh-jurnal-distributed-process-dalam-mpi-untuk-pengolahan-bilangan-proma, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma, , , , , , , 0, , , , , , 0, contoh-jurnal-distributed-process-dalam-mpi-untuk-pengolahan-bilangan-proma, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://unduhjurnal.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://unduhjurnal.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://unduhjurnal.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://unduhjurnal.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://unduhjurnal.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://unduhjurnal.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://unduhjurnal.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">dianahutabarat2357</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Jurnal+Distributed+Process+Dalam+Mpi+Untuk+Pengolahan+Bilangan+Proma" alt="Contoh Jurnal Distributed Process Dalam Mpi Untuk Pengolahan Bilangan Proma">
+                    </div>
+                    <p></p>
+                    <p>Bagian komputer yang merupakan alat untuk menampilkan hasil pengolahan (process) yaitu ..</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-komputer-yang-merupakan-alat-untuk-menampilkan-hasil-pengolahan-process-yaitu">1.
+                                            Bagian komputer yang merupakan alat untuk menampilkan hasil pengolahan (process) yaitu ..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kasus-hukum-yang-di-tangani-oleh-mpi">2.
+                                            Contoh kasus hukum yang di tangani oleh mpi </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pantun-termasuka-proma-lama-c-proma-barub-puisi-lama-d-puisi-baru">3.
+                                            pantun termasuka. proma lama                       c. proma barub. puisi lama                        d. puisi baru</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebuah-sistem-terdistribusi-distributed-system-adalah-sistem-yang-memiliki-kemampuan-komputasi-dan-resources-ke-berbagai-komputer-di-jaringan-jelaskan-istilah-loosely-coupled-system-dalam-distribut">4.
+                                            Sebuah sistem terdistribusi (Distributed System) adalah sistem yang memiliki kemampuan komputasi dan resources ke berbagai komputer di jaringan. Jelaskan istilah loosely coupled system dalam distributed system, manfaat distributed system, dan syarat untuk menjalankan distributed system !​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#memiliki-skala-komputasi-yang-cepat-mampu-menangani-shared-process-dari-banyak-user-biasanya-memiliki-lebih-dari-satu-prosessor-mampu-menangani-parallel-processing-distributed-systemsciri">5.
+                                            * Memiliki skala komputasi yang cepat.	* Mampu menangani shared process dari banyak user.	* Biasanya memiliki lebih dari satu prosessor.	* Mampu menangani parallel processing, distributed systemsciri - ciri diatas adalah merupakan ciri dari sebuaha.super computerb.mini computer c.mainframed.pc​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#39-budi-melakukan-percobaan-untuk-mengetahui-sifat-sifat-cahaya-sepeeti-gambar-bermpromamenurutmu-apa-sifat-cahaya-yang-dapat-dibuktikan-melalui-percobaan-tersebut%e2%80%8b">6.
+                                            39. Budi melakukan percobaan untuk mengetahui sifat-sifat cahaya sepeeti gambar bermPromaMenurutmu, apa sifat cahaya yang dapat dibuktikan melalui percobaan tersebut?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#3-cotan-2x-mpi-per-4-akar-3%e2%80%8b">7.
+                                            3 cotan ( 2x-mpi per 4 ) = akar 3​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-dimaksud-dengan-distributed-processing">8.
+                                            apa yang dimaksud dengan distributed processing</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-contoh-dari-process-device">9.
+                                            tuliskan contoh dari process device</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-process-adalah%e2%80%8b">10.
+                                            contoh process adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gantengan-mpi-apa-jhop-soalnya-lagi-oleng-nih-ke-jhop">11.
+                                            Gantengan mpi apa jhop, soalnya lagi oleng nih ke jhop:(</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#message-passing-interface-dalam-kurung-mpi-memiliki-kemampuan-untuk-menetapkan-suatu-topologi-komunikasi%e2%80%8b">12.
+                                            message passing interface dalam kurung Mpi memiliki kemampuan untuk menetapkan suatu topologi komunikasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-sih-perbedaan-mpc-marginal-propensity-to-consume-dengan-mpi-marginal-propensity-to-invest-terus-mpi-sama-gak-sama-mps-marginal-propensity-to-save-makasih">13.
+                                            apa sih perbedaan MPC (marginal propensity to consume) dengan MPI ( marginal propensity to invest) ? terus, MPI sama gak sama MPS (marginal propensity to save)? makasih</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-contoh-kasus-yang-ditangani-mpi2-contoh-kasus-yang-ditangani-panel-khusus2-contoh-kasus-yang-ditangani-spesial%c2%a0">14.
+                                            2 contoh kasus yang ditangani MPI
+2 contoh kasus yang ditangani panel khusus
+2 contoh kasus yang ditangani spesial
+ </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#mpiadalahperhatikan-gambar-di-sampingdaun-jambu-biji-dapat-dimanfaatkan-untuk%e2%80%8b">15.
+                                            mpiadalahPerhatikan gambar di samping!Daun jambu biji dapat dimanfaatkan untuk​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-contoh-dari-teori-opponent-process">16.
+                                            jelaskan contoh dari teori opponent process</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kuis698%c2%b3-note-mbak-mpi-nih%e2%80%8b">17.
+                                            Kuis698³ =Note : Mbak Mpi nih​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kasus-contoh-hukum-internasional-yang-di-tangani-oleh-mi-mpi-pkpi-pspi">18.
+                                            Kasus contoh hukum internasional yang di tangani oleh
+ -MI
+ -MPI
+ -PKPI
+ -PSPI</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-yang-di-mksud-distributed-processing">19.
+                                            apakah yang di mksud distributed processing?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#distributed-processing-dan-contohnya">20.
+                                            Distributed processing dan contohnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-dialog-tentang-describing-process">21.
+                                            contoh dialog tentang describing process</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#yg-belum-ada-jawabannya-tolong-dijawab-ya-jangan-lupa-tulisa-faktor-promanya-juga-ya">22.
+                                            yg belum ada jawabannya tolong dijawab ya..jangan lupa tulisa faktor promanya juga ya:)</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-tentang-distributed-memory%e2%80%8b">23.
+                                            jelaskan tentang distributed memory​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-dari-repetitive-process%e2%80%8b">24.
+                                            contoh dari REPETITIVE PROCESS​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-tahapan-proses-yang-dilakukan-pada-pengolahan-tahap-kedua-secondary-process-minyak-bumi%e2%80%8b">25.
+                                            Sebutkan tahapan proses yang dilakukan pada pengolahan tahap kedua (secondary process) minyak bumi!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-pembelajaran-materi-mpi%e2%80%8b">26.
+                                            apa itu pembelajaran materi mpi?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-komputer-yang-merupakan-alat-untuk-menampilkan-hasil-pengolahan-process-yaitu-a-keyboardb-mousec-microphoned-flashdiske-monitor">27.
+                                             Bagian komputer yang merupakan alat untuk menampilkan hasil pengolahan (process) yaitu ....
+a. Keyboard
+b. Mouse
+c. Microphone
+d. Flashdisk
+e. Monitor</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-pentingnya-mempelajari-managemen-perpustakaan-bagi-mahasiswa-mpi%e2%80%8b">28.
+                                            apa pentingnya mempelajari managemen perpustakaan bagi mahasiswa MPI​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perangkat-lunak-yang-mengimplementasikan-protokol-mpi-adalah%e2%80%8b">29.
+                                            perangkat lunak yang mengimplementasikan protokol MPI adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dasar-berdirinya-mpi">30.
+                                            dasar berdirinya Mpi</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-arti-dari-kata-proma-ganda-vocing-ngarsa-sung-tulada">31.
+                                            apa arti  dari kata proma ganda, VOC,ing ngarsa sung tulada.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-describing-process">32.
+                                            Berikan contoh describing process.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jika-x-adalah-bilangan-proma-antara-15-dan-20-sedangkan-y-adalah-bilangan-kelipayan-dan-4-adalah-46-nilai-terkecil-3x-2y-adalaha-27b-39c-40d-41e-43">33.
+                                            Jika x adalah bilangan proma antara 15 dan 20 sedangkan y adalah bilangan kelipayan ; dan 4 adalah 46 nilai terkecil 3x-2y adalah
+A -27
+B -39
+C -40
+D -41
+E -43</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-masing-masing-2-contoh-dari-perangkat-keras-process">34.
+                                            Sebutkan masing masing 2 contoh dari perangkat keras process</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#cara-memainkan-alat-musik-tina-mpi-adalah%e2%80%8b">35.
+                                            cara memainkan alat musik tina mpi adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-describing-process">36.
+                                            Contoh describing process</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#input-process-output-adalah-sama-contohnya">37.
+                                            input, process, &amp; output adalah ??sama contohnya !!???? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-deacribing-process">38.
+                                            contoh deacribing process</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-kasus-pengaplikasian-business-process">39.
+                                             Contoh kasus pengaplikasian Business Process </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#q-diket-mpi-50juki-70-nchim-30tentukan-juki-%c3%97-nchim-mpi-pke-carant-%e2%80%8b">40.
+                                            Q.diket: mpi = 50Juki = 70 nchim = 30tentukan: juki × nchim - mpi = ? pke cara!nt : :-; ​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="bagian-komputer-yang-merupakan-alat-untuk-menampilkan-hasil-pengolahan-process-yaitu">
+                            1. Bagian komputer yang merupakan alat untuk menampilkan hasil pengolahan (process) yaitu ..</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>proses lembar jawaban</p><p><strong>Penjelasan:</strong></p><p>atau email</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-kasus-hukum-yang-di-tangani-oleh-mpi">
+                            2. Contoh kasus hukum yang di tangani oleh mpi </h2><br />
+                        kasus TKW yang tertangkap basa tidak memiliki surat izin atau mencuri pada saat berada di luar negeri<br />  SEMOGA MEMBANTUcontoh: kasus TKW yang tertangkap basa tidak memiliki surat izin atau mencuri saat berada diluar negeri maaf kalo salah<br />
+                                            <h2 class="ez-toc-section" id="pantun-termasuka-proma-lama-c-proma-barub-puisi-lama-d-puisi-baru">
+                            3. pantun termasuka. proma lama                       c. proma barub. puisi lama                        d. puisi baru</h2><br />
+                        b.puisi lama <br />maaf klo salah<br />
+                                            <h2 class="ez-toc-section" id="sebuah-sistem-terdistribusi-distributed-system-adalah-sistem-yang-memiliki-kemampuan-komputasi-dan-resources-ke-berbagai-komputer-di-jaringan-jelaskan-istilah-loosely-coupled-system-dalam-distribut">
+                            4. Sebuah sistem terdistribusi (Distributed System) adalah sistem yang memiliki kemampuan komputasi dan resources ke berbagai komputer di jaringan. Jelaskan istilah loosely coupled system dalam distributed system, manfaat distributed system, dan syarat untuk menjalankan distributed system !​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Operating system/Sistem Operasi adalah software sistem yang mengatur sumber daya dari hardware dan software, dan berbagai daemon untuk program komputer. Tanpa sistem operasi, pengguna hanya dapat melakukan program booting pada komputer. </p><p><strong>Penjelasan:</strong></p><p>Dua macam bentuk sistem operasi, antara lain:</p><p>(1) Networking operating system. Setiap komputer dalam suatu jaringan otomatis menjalankan sistem operasinya yang menopang komunikasi dengan komputer lainnya. </p><p>(2) Distributed operating system. Menggunakan satu sistem operasi yang sama yang didistribusikan untuk semua komputer dalam jaringan yang sama. </p><p></p><p>Loosely coupled system mendistribusikan komputasi diantara beberapa prosesor yang berkomunikasi dengan prosesor lain dengan menggunakan memory local/multikomputer. </p><p></p><p>Manfaat distributed system :</p><p>(1) Sharing resource. Sebagai software pendukung bagi pengguna yang ingin memiliki kecepatan lebih dalam proses komputasi namun tidak memiliki hardware yang cukup. </p><p>(2) Manfaat waktu komputasi yang berjalan paralel. Proses ini dipecah dalam banyak titik/nodes yang berupa komputer pribadi, prosesor tersendiri serta mengambil kembali hasil komputasi nodes untuk ditampilkan hasilnya. </p><p>(3) Reliabilitas. ilangnya suatu node tidak berdampak terhadap integritas sistem/sistem akan dapat terus berjalan dengan seimbang. </p><p>(4) Komunikasi. Untuk proses networking, saling bertukar data, atau berkomunikasi antar titik secara LAN maupun WAN. </p><p></p><p>Pelajari lebih lanjut tentang materi Sistem Operasi pada https://brainly.co.id/tugas/27057942?referrer=searchResults</p><p></p><p>#BelajarBersamaBrainly</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="memiliki-skala-komputasi-yang-cepat-mampu-menangani-shared-process-dari-banyak-user-biasanya-memiliki-lebih-dari-satu-prosessor-mampu-menangani-parallel-processing-distributed-systemsciri">
+                            5. * Memiliki skala komputasi yang cepat.	* Mampu menangani shared process dari banyak user.	* Biasanya memiliki lebih dari satu prosessor.	* Mampu menangani parallel processing, distributed systemsciri - ciri diatas adalah merupakan ciri dari sebuaha.super computerb.mini computer c.mainframed.pc​</h2><br />
+                        <p>Biasanya memiliki lebih dari satu prosessor merupakan ciri dari <strong>a.Super Computer</strong></p><p><strong>Penjelasan:</strong></p><p><strong>Super computer</strong> merupakan sebuah komputer yang memiliki kemampuan <strong>komputasi </strong>yang sangat luar biasa biasanya digunakan untuk <strong>pemrosesan </strong>data tingkat tinggi. Adapun analisis jawaban lainnya adalah sebagai berikut: </p>Jawaban B salah karena <strong>mini computer</strong> hanya digunakan pada skala kecil dan tidak bisa <strong>multi user</strong>.Jawaban C salah karena <strong>mainframe </strong>merupakan suatu komponen digital pada komputer.Jawaban D salah karena PC merupakan <strong>personal compute</strong>r tidak yang biasanya berspesifikasi standar.<p></p><p>Pelajari lebih lanjut materi tentang super computer: https://brainly.co.id/tugas/2075007</p><p></p><p>#BelajarBersamaBrainly</p><br />
+                                            <h2 class="ez-toc-section" id="39-budi-melakukan-percobaan-untuk-mengetahui-sifat-sifat-cahaya-sepeeti-gambar-bermpromamenurutmu-apa-sifat-cahaya-yang-dapat-dibuktikan-melalui-percobaan-tersebut%e2%80%8b">
+                            6. 39. Budi melakukan percobaan untuk mengetahui sifat-sifat cahaya sepeeti gambar bermPromaMenurutmu, apa sifat cahaya yang dapat dibuktikan melalui percobaan tersebut?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>gambar nya mana pls ini pasti ada gambar nya</p><p><strong>Penjelasan:</strong></p><p>iyakan</p><br />
+                                            <h2 class="ez-toc-section" id="3-cotan-2x-mpi-per-4-akar-3%e2%80%8b">
+                            7. 3 cotan ( 2x-mpi per 4 ) = akar 3​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>13 kadalau 15273-+(#(#(#) </p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-dimaksud-dengan-distributed-processing">
+                            8. apa yang dimaksud dengan distributed processing</h2><br />
+                        <p><strong>Distributed processing</strong> merupakan kemampuan sebuah jaringan untuk menjalankan proses-proses pengolahan data secara bersamaan antara satu komputer host dengan komputer lain yang berperan sebagai klien. </p><p></p>Pembahasan:<p>Setiap komputer dalam <strong>distributed processing </strong>memiliki prosesornya masing-masing. Karena itulah, perangkat-perangkat ini bisa mengolah data-data secara terpisah. </p><p>Hasil pengolahan dari data-data tersebut kemudian tergabung menjadi sebuah penyelesaian total. <strong>Distributed processing </strong>menuntut integrasi yang mendalam antara teknologi jaringan komputer dan telekomunikasi.</p><p>Apabila satu prosesor dalam arsitektur jaringan ini mengalami kegagalan dalam memproses data, maka prosesor lain akan mengambil alih tugas tersebut.</p><p><strong>Distributed processing </strong>merupakan cara mengolah data dengan lebih efisien karena pekerjaan dibagikan ke banyak komputer sekaligus, sehingga kekuatan pemrosesan bisa lebih cepat dan ringan. </p><p>Tujuannya adalah untuk memberdayakan kemampuan resource yang terpisah secara fisik dalam sebuah sistem yang saling terintegrasi. Karena komputer yang dilibatkan lebih banyak, sistem ini biasanya digunakan untuk memanajemen website atau jaringan yang sangat besar dan terdiri dari banyak pengguna. </p><p>Contoh penggunaan <strong>distributed processing</strong> adalah pada server dari sebuah perusahaan yang memiliki cabang di beberapa negara di seluruh dunia. Setiap negara memiliki servernya masing-masing, sehingga bisa mengelola data di negara tersebut tanpa harus terlalu bergantung dengan server pusatnya. </p><p>Kelebihan <strong>distributed processing</strong>:</p>Mempermudah pengembangan sistemSistem lebih handal, tidak mudah error karena tidak terlalu bergantung di satu server sajaSetiap server memiliki otonomi lokalPengelolaannya transparan dan mudah dimanajemenMenjamin keamanan dan ketersediaan data<p>Kelemahan <strong>distributed processing</strong>:</p>Manajemen sistem lebih kompleksBiaya membangun dan merawat sistem lebih besarButuh ruang penyimpanan lebih banyak<p></p>Pelajari lebih lanjut:Samba server https://brainly.co.id/tugas/26958364Penggunaan perangkat jaringan https://brainly.co.id/tugas/49815011Ancaman keamanan jaringan https://brainly.co.id/tugas/34170649<p></p>Detail Jawaban:<p>Kelas: 9</p><p>Mapel: TIK</p><p>Bab: Bab 2 - Dasar-Dasar Sistem Jaringan Internet dan Intranet</p><p>Kode: 9.11.2</p><p>#AyoBelajar</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-contoh-dari-process-device">
+                            9. tuliskan contoh dari process device</h2><br />
+                        contoh prosess device (perangkat proses):<br />1. prosessor<br />2. Network Interface Card (NIC)<br />3. Video Graphic Adapter Card<br />4. Sound Card<br />5. Power Supply Unit (PSU)<br /><br /># semoga membantu<br />PSU<br />NIC<br />PROCESSOR<br /><br />SEMOGA BENAR<br />
+                                            <h2 class="ez-toc-section" id="contoh-process-adalah%e2%80%8b">
+                            10. contoh process adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>mesjid itu sedang dalam proses perbaikan </p><br />
+                                            <h2 class="ez-toc-section" id="gantengan-mpi-apa-jhop-soalnya-lagi-oleng-nih-ke-jhop">
+                            11. Gantengan mpi apa jhop, soalnya lagi oleng nih ke jhop:(</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>gantengan ahn hyoseop alias seo woojin di romantic doctor :((</p><p><strong>Jawaban:</strong></p><p>mpiiiii donggggg kdng jga jhop sii:(</p><br />
+                                            <h2 class="ez-toc-section" id="message-passing-interface-dalam-kurung-mpi-memiliki-kemampuan-untuk-menetapkan-suatu-topologi-komunikasi%e2%80%8b">
+                            12. message passing interface dalam kurung Mpi memiliki kemampuan untuk menetapkan suatu topologi komunikasi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>topologi komunikasi<strong> Logik<br /><br /></strong>Semoga membantu :)</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-sih-perbedaan-mpc-marginal-propensity-to-consume-dengan-mpi-marginal-propensity-to-invest-terus-mpi-sama-gak-sama-mps-marginal-propensity-to-save-makasih">
+                            13. apa sih perbedaan MPC (marginal propensity to consume) dengan MPI ( marginal propensity to invest) ? terus, MPI sama gak sama MPS (marginal propensity to save)? makasih</h2><br />
+                        kalau MPC itu penghasilan yg digunakan utk di pakai / di konsumsi<br />MPI itu buat di investasikan, misalnya buat beli emas yg bisa dijual lgi suatu saat.<br />kalau MPS itu pengahasilan buat ditabung, untuk masa depan. tidak digunakan skrg<br /><br />
+                                            <h2 class="ez-toc-section" id="2-contoh-kasus-yang-ditangani-mpi2-contoh-kasus-yang-ditangani-panel-khusus2-contoh-kasus-yang-ditangani-spesial%c2%a0">
+                            14. 2 contoh kasus yang ditangani MPI
+2 contoh kasus yang ditangani panel khusus
+2 contoh kasus yang ditangani spesial
+ </h2><br />
+                        oleh mpi<br />1. Keluhan oleh Amerika Serikat pada tahun 1980 bahwa Iran menahan para 
+diplomat Amerika di Teheran yang melanggar hukum internasional. <br />2. Perselisihan antara Tunisia dan Libya selama penentuan batas landas kontinen antara mereka <br />3.Keluhan
+ oleh Pakistan atas nama rakyat Kashmir lebih penindasan terhadap India 
+dan dibebankan dengan terorisme Negara langsung melanjutkan pelanggaran 
+hukum internasional.<br />4. Sebuah perselisihan batas maritim membagi AS dan Kanada di Teluk Maine daerah <br /><br /><br /><br />
+                                            <h2 class="ez-toc-section" id="mpiadalahperhatikan-gambar-di-sampingdaun-jambu-biji-dapat-dimanfaatkan-untuk%e2%80%8b">
+                            15. mpiadalahPerhatikan gambar di samping!Daun jambu biji dapat dimanfaatkan untuk​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Daun jambu biji memiliki sifat anti-inflamasi dan antibakteri yang bisa mengurangi peradangan. Selain jadi obat sakit gigi, daun jambu biji juga bermanfaat melindungi gigi dan gusi dari penyakit.</p><p></p><p></p><p></p><p></p><p>dari akang eonnie</p><p></p><p><strong>Jawaban:</strong></p><p>Daun jambu biji ini memiliki banyak manfaat bagi kesehatan, bisa membantu mengobati diare hingga menurunkan kolesterol.</p><p><strong>Penjelasan:</strong></p><p>Daun jambu biji kaya akan antioksidan dan tanin,juga memiliki sifat anti-inflamasi dan sifat antibakteri.Menurut sebuah penelitian, daun jambu biji memiliki sifat anti diare.</p><p></p><p></p><p>MAAF YA KAK KALAU SALAH,SEMOGA BERMANFAAT.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-contoh-dari-teori-opponent-process">
+                            16. jelaskan contoh dari teori opponent process</h2><br />
+                        Teori Pertentangan/Ketidaksesuaian (Discprepancy Theory).<br />Teori dari Locke ini mengukur kepuasan kerja seseorang dengan membandingkan seberapa besar selisih antara sesuatu yang diharapkan seseorang dengan kenyataan yang ia terima atau dapatkan. Lebih lanjut dijelaskan bahwa kepuasan atau ketidakpuasan terhadap beberapa aspek dari pekerjaan mencerminkan dua nilai: Pertama, pertentangan yang dipersepsikan antara apa yang diinginkan seorang individu dengan apa yang ia terima. Kedua, pentingnya apa yang diinginkan bagi individu. Menurut Locke seorang individu akan merasa puas atau tidak puas merupakan sesuatu yang pribadi, tergantung bagaimana ia mempersepsikan adanya kesesuaian atau pertentangan antara keinginan-keinginanya dan hasil-keluarannya. Contoh dari nilai yang pertama diatas adalah seseorang akan mendapatkan kepuasan yang lebih tinggi (lebih puas) jika hasil yang diterimanya melebihi dari ekspektasinya. Sedangkan untuk nilai kedua dicontohkan bahwa tambahan waktu libur akan menunjang kepuasan kerja seseorang yang menikmati waktu luang setelah bekerja, tetapi tidak akan menunjang kepuasan kerja seorang tenaga kerja lain yang merasa tidak dapat menikmati waktu luangnya, seperti halnya seorang yang kecanduan kerja (workaholic).<br />
+                                            <h2 class="ez-toc-section" id="kuis698%c2%b3-note-mbak-mpi-nih%e2%80%8b">
+                            17. Kuis698³ =Note : Mbak Mpi nih​</h2><br />
+                        No. 1<p>= 698³</p><p>= 698 × 698 × 698</p><p>= 487.204 × 698</p><p>= <strong>340.068.392</strong></p><p>698³= 698×698×698</p><p></p><p>=340.068.392</p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="kasus-contoh-hukum-internasional-yang-di-tangani-oleh-mi-mpi-pkpi-pspi">
+                            18. Kasus contoh hukum internasional yang di tangani oleh
+ -MI
+ -MPI
+ -PKPI
+ -PSPI</h2><br />
+                        a. MI: kasus /sengketa<br />-Indonesia dengan Malaysia<br />-Irak dengan Kuwait<br />-Indonesia dengan Timor Leste<br />b. MPI: Kejahatan berat<br />-Kejahatan genosida<br />-Kejahatan terhadap kemanusiaan<br />-Kejahatan perang<br /><br />maaf saya cuma tau 2.<br />
+                                            <h2 class="ez-toc-section" id="apakah-yang-di-mksud-distributed-processing">
+                            19. apakah yang di mksud distributed processing?</h2><br />
+                        distributed processing adalah mengerjakan semua proses pengolahan data secara bersama antara komputer pusat dengan beberapa komputer yang lebih kecil dan saling di hubungkan melalui jalur komunikasi.<br />
+                                            <h2 class="ez-toc-section" id="distributed-processing-dan-contohnya">
+                            20. Distributed processing dan contohnya</h2><br />
+                        <p>Distributed processing ialah penggunaan yang bervariasi dari sistem komputer yang digunakan lebih dari satu komputer(processor) untuk menjalankan aplikasi atau software. </p><p>Distributed processing dapat dikategorikan sebagai LAN (Local Area Network) yang berguna untuk membagi suatu program agar terjaring pada situs-situs tertentu. </p><p>Distributed processing lainnya merupakan Databases. Pembagian data ini dikirimkan antara 2 komputer atau lebih dalam sistem komputer.</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-dialog-tentang-describing-process">
+                            21. contoh dialog tentang describing process</h2><br />
+                        A: Hello, B! What are you doing?<br />B: Hello, A! I am making hot tea.<br />A: How to make it? Tell me, please.<br />B: Put tea and sugar into glass. Then put hot water into glass, and stir well. Then, serve the hot tea.<br />A: Oh, I see. Thank you.<br />B: You are welcome.<br />
+                                            <h2 class="ez-toc-section" id="yg-belum-ada-jawabannya-tolong-dijawab-ya-jangan-lupa-tulisa-faktor-promanya-juga-ya">
+                            22. yg belum ada jawabannya tolong dijawab ya..jangan lupa tulisa faktor promanya juga ya:)</h2><br />
+                        poin nya tambahin kalau mau dikerjakan<p>no 7 :</p><p>Cari kpk</p><p>8: 2x2x2</p><p>12: 2x2x3</p><p>6: 2x3</p><p>Jadi Kpk nya : 2x2x2x3:24 </p><p>:07.00 + 00.24 : 07.24 jawabanya D.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-tentang-distributed-memory%e2%80%8b">
+                            23. jelaskan tentang distributed memory​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Distributed Shared Memory System adalah mekanisme yang memungkinkan proses end-user ‘untuk mengakses data bersama tanpa menggunakan antar-proses komunikasi</p><p></p><p>tujuan dari sistem DSM adalah untuk membuat antar-proses komunikasi transparan kepada pengguna akhir. </p><br />
+                                            <h2 class="ez-toc-section" id="contoh-dari-repetitive-process%e2%80%8b">
+                            24. contoh dari REPETITIVE PROCESS​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Repetitive process adalah industri dimana proses produksinya yang berlangsung secara berulang kembali. Dalam repetitive process, produk yang dihasilkan dalam jumlah banyak dan proses biasanya berlangsung dengan langkah pengerjaan yang berulang-ulang dan serupa. Dalam repetitive process dapat dihentikan sewaktu-waktu tanpa kerugian yang berarti.</p><p><strong>Penjelasan:</strong></p><p>Manajemen proses adalah rangkaian aktivitas atau kegiatan perencanaan dan pengawasan kinerja suatu proses bisnis. Manajemen proses mengaplikasikan segala sesuatu dan mengelola prosesnya yang bertujuan untuk meningkatkan keuntungan atau laba. Dalam manajemen proses ada banyak hal yang perlu diperhatikan salah satunya sumber daya yang mana bisa dimaksimalkan dan dapat memberikan nilai tambah bagi perusahaan tersebut</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-tahapan-proses-yang-dilakukan-pada-pengolahan-tahap-kedua-secondary-process-minyak-bumi%e2%80%8b">
+                            25. Sebutkan tahapan proses yang dilakukan pada pengolahan tahap kedua (secondary process) minyak bumi!​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>diolah diunyel unyel sampek garenf</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-pembelajaran-materi-mpi%e2%80%8b">
+                            26. apa itu pembelajaran materi mpi?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Model pembelajaran Inkuiri(MPI) adalah suatu teknik intruksional di mana dalam proses belajar mengajar siswa dihadapkan dengan suatu masalah .</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="bagian-komputer-yang-merupakan-alat-untuk-menampilkan-hasil-pengolahan-process-yaitu-a-keyboardb-mousec-microphoned-flashdiske-monitor">
+                            27.  Bagian komputer yang merupakan alat untuk menampilkan hasil pengolahan (process) yaitu ....
+a. Keyboard
+b. Mouse
+c. Microphone
+d. Flashdisk
+e. Monitor</h2><br />
+                        e.monitor ..<br />maaf kalau salah..sy jg baru belajar..<br />
+                                            <h2 class="ez-toc-section" id="apa-pentingnya-mempelajari-managemen-perpustakaan-bagi-mahasiswa-mpi%e2%80%8b">
+                            28. apa pentingnya mempelajari managemen perpustakaan bagi mahasiswa MPI​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>pemimpin atau kepala perpustakaan perlu mempelajari menejemen agar dapat memimpin perpustakasn dengan baik dan benar . Mudah menyelesaikan masalah jika terjadi masalah dalam perpustakaan, baik itu menyangkut Sumber Daya Perpustakaan,pemustaka,maupun menyangkut sarana dan prasarana.</p><p><strong>Penjelasan:</strong></p><p></p><p></p><p>MAAF KALAU SALAH</p><br />
+                                            <h2 class="ez-toc-section" id="perangkat-lunak-yang-mengimplementasikan-protokol-mpi-adalah%e2%80%8b">
+                            29. perangkat lunak yang mengimplementasikan protokol MPI adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>perangkat lunak pararel</p><p><strong>Penjelasan:</strong></p><p>MPI adalah  protokol komunikasi untuk pemrograman komputer paralel . Baik komunikasi point-to-point dan kolektif didukung. MPI "adalah antarmuka pemrogram aplikasi penyampaian pesan, bersama dengan spesifikasi protokol dan semantik tentang bagaimana fitur-fiturnya harus berperilaku dalam implementasi apa pun.Sasaran MPI adalah kinerja tinggi, skalabilitas, dan portabilitas. MPI tetap menjadi model dominan yang digunakan dalam komputasi berkinerja tinggi saat ini.</p><br />
+                                            <h2 class="ez-toc-section" id="dasar-berdirinya-mpi">
+                            30. dasar berdirinya Mpi</h2><br />
+                        Sejarah Berdirinya MPI :<br />Sesungguhnya sejak tahun 1990, Mezaro Ndraha telah belajar berbicara didepan umum, khususnya ditingkat organisasi. Kemampuan ini terus dilatih dari waktu ke waktu hingga menjadikannya terbiasa berbicara. Modalnya adalah BERANI MENCOBA dan TERUS BELAJAR. Jatuh bangun dalam dunia usaha adalah hal biasa dialaminya, tetapi niatnya untuk terus maju tak pernah pudar. Ia tidak merasa GAGAL karena apapun bentuknya kejatuhan yang pernah dialami adalah bagian dari proses untuk mencapai IMPIAN. Proses waktu kurang lebih 20 tahun silam, telah menjadikannya semakin mantap dan matang untuk menjalani aliran kehidupan.Mengawali karir sebagai trainer, motivator dan inspirator tidaklah gampang. Perjumpaanya dengan Aris Nuryanto pengusaha muda di Solo, nama TMT (Trans Motivation Training) dig anti menjadi MPI (Mezaro Power Of Inspiration). Nama ini terinspirasi ketika Aris Nuryanto, Mezaro Ndraha dan teman-teman sedang asyik menikmati makan malam di warung hik (nasi kucing) di depan pasar kembang, Jl.Honggowongso pada awal bulan Mei 2012. Pada hari berikutnya, MPI dibadan hukumkan di salah satu notaris yang ada di kota Solo sampai akhirnya MPI hadir dihadapan anda.<br /><br />Dasar Pemikiran :Dibutuhkan lembaga motivasi, inspirasi dan kreasi yang bersifat umum, independen non agamawi yang akan mendorong setiap orang kembali kepribadian seutuhnya.<br />
+                                            <h2 class="ez-toc-section" id="apa-arti-dari-kata-proma-ganda-vocing-ngarsa-sung-tulada">
+                            31. apa arti  dari kata proma ganda, VOC,ing ngarsa sung tulada.</h2><br />
+                        VOC + Vereenigde Oostindische Compagnie <br />Ing Ngarsa Sung Tulada = di depan memberi contoh<br /><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-describing-process">
+                            32. Berikan contoh describing process.</h2><br />
+                        <br />Popcorn is something you often eat when you watch a movie at a cinema. <br /><br />It is very easy to make perfect popcorn if follow the correct procedure. <br /><br />First, put three tablespoons of oil in a large pot.<br /><br />Then, heat the oil on a high flame until one kernel of popcorn pops when you drop it into the hot oil. <br /><br />Now, pour a quarter cup of popcorn into the pot and cover the pot with a lid. <br />Reduce the flame and gently shake the pot. Continue shaking until the corn has popped. <br /><br />Finally,<br />empty the popcorn into a large bowl and add melted butter and salt. <br /><br />As you can see making popcorn is very simple if you follow the steps above. Enjoy your movie! <br /><br />
+                                            <h2 class="ez-toc-section" id="jika-x-adalah-bilangan-proma-antara-15-dan-20-sedangkan-y-adalah-bilangan-kelipayan-dan-4-adalah-46-nilai-terkecil-3x-2y-adalaha-27b-39c-40d-41e-43">
+                            33. Jika x adalah bilangan proma antara 15 dan 20 sedangkan y adalah bilangan kelipayan ; dan 4 adalah 46 nilai terkecil 3x-2y adalah
+A -27
+B -39
+C -40
+D -41
+E -43</h2><br />
+                        x=17<br />y=46<br /><br />3(17) - 2(46)<br />51 - 92<br />-41<br /><br />jawabannya D. -41<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-masing-masing-2-contoh-dari-perangkat-keras-process">
+                            34. Sebutkan masing masing 2 contoh dari perangkat keras process</h2><br />
+                        prangkat keras ada 4 komponen<br /><br />1.alat input=keyboard,mouse,scanner<br />2.alatn proses=cpu,<br />3.alat output=monitor,printer,speaker<br />4.alat penyimpanan atau storage unit=flash disk,memory,<br /><br />itu conroh dan komponen perangkat keras maaf kalo salah semoga membantu1. Processor<br />Bagian terpenting ini tidak boleh dilewatkan. Bagian ini akan memproses data yang akan dijalankan dikomputer <br />2. VGA<br />Bagian pemroses ini merupakan bagian yang berguna untuk memproses data komputer dan dilanjutkan ke monitor sebagai hasil proses visual. Tanpa benda ini, kamu tidak akan pernah bisa melihat gambar dimonitormu ^^<br /><br />Semoga membantu<br />
+                                            <h2 class="ez-toc-section" id="cara-memainkan-alat-musik-tina-mpi-adalah%e2%80%8b">
+                            35. cara memainkan alat musik tina mpi adalah​</h2><br />
+                        <p>jawabannya dipetik mohon maaf kalo salah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-describing-process">
+                            36. Contoh describing process</h2><br />
+                        The Expressions:<br /><br />I. Beginning<br />- The first thing you do is....<br /> - To begin with.....<br /> - To start with....<br /> - First.....<br />II. Continuing<br />- And .....<br /> - Then .....<br /> - And then .....<br /> - Next ..... + verb in imperative form<br /> - After this ...... (infinitive without to)<br /> - Following this.....<br /> - When (this done)/(you’ve done this) ......<br /> - Once (this is done) / (you’ve done this) ......<br /> - While (something else is happening) .......<br />III. Ending<br />- Finally .....<br /> - Lastly ......<br /> - To finish .....<br /><br />Example :<br />How to make an omelette<br />We need at least 4 eggs per omelette. First, break the eggs carefully into a bowl and season with salt and freshly milled pepper. Then beat them with fork. After this, heat the oil, not too much heat, just heat it. Then pour the eggs into the hot pan. Carefully tap the pan so that the cooked omelette moves and slightly overlaps the pan edge. And then gently fold this overlap in toward the centre it should only go one third distance. Now arrange your chosen filling in the centre of the omelette and finally, fold the other edge in towards the middle.<br /><br />How to change a spare tire<br />First the nuts on the wheel should be loosened. The second step is to raise the car with a jack. Next, the nuts are removed and the wheel is taken off. After that, the spare wheel is put on, and the nuts are replaced. Then, the car is lowered to the ground. Finally, make sure the nuts are completely tightened before you drive away.<br /><br /><br /> It can be seen that changing a tire is not difficult. As long as the right equipment is used and the right procedure is followed, you will be able to continue your journey quickly.<br /><br /><br />#maaf kalo salah iyaaa<br />
+                                            <h2 class="ez-toc-section" id="input-process-output-adalah-sama-contohnya">
+                            37. input, process, &amp; output adalah ??sama contohnya !!???? </h2><br />
+                        input adalah pemasukkan data atau penyimpanan data kedalam memori pada suatu komputer<br />process adalah suatu tindakan yang dilakukan kepada data yang dimasukkan atau  data yang ada dimemori<br />output adalah pencetakan data atau menuliskan hasil data yang telah disimpan ataupun di proses<br />contoh<br />input = 2<br />proses = 2*input<br />output = 4<br />input : perangkat komputer yang d gunakan untuk memasukkan perintah dan data2 yang akan d proses oleh program komputer.<br />contoh input : 1) keyboard, 2) mouse<br /><br />proses : intruksi atau perintah yang dikerjakan oleh komputer untuk menjalankan operasi data serta operasi aritmatik dan logika yg dilakukan pada data.<br />contoh proses : 1) arithmatic logical unit (alu), 2) storage, 3) control unit.<br /><br />output : peralatan komputer yg berfungsi untuk melihat instruksi yg sedang dilakukan oleh komputer dan untuk melihat hasil pengolahan data komputer.<br />contoh output : 1) monitor, 2) printer, 3) speaker.<br /><br />semoga membantu:)<br />
+                                            <h2 class="ez-toc-section" id="contoh-deacribing-process">
+                            38. contoh deacribing process</h2><br />
+                        Popcorn is something you often eat when you watch a movie at a cinema. <br /><br />It is very easy to make perfect popcorn if follow the correct procedure. <br /><br />First, put three tablespoons of oil in a large pot.<br /><br />Then, heat the oil on a high flame until one kernel of popcorn pops when you drop it into the hot oil. <br /><br />Now, pour a quarter cup of popcorn into the pot and cover the pot with a lid. <br />Reduce the flame and gently shake the pot. Continue shaking until the corn has popped. <br /><br />Finally,<br />empty the popcorn into a large bowl and add melted butter and salt. <br /><br />As you can see making popcorn is very simple if you follow the steps above. Enjoy your movie! <br /><br />Simak lebih lanjut di Brainly.co.id - https://brainly.co.id/tugas/5350747#readmore<br />
+                                            <h2 class="ez-toc-section" id="contoh-kasus-pengaplikasian-business-process">
+                            39.  Contoh kasus pengaplikasian Business Process </h2><br />
+                        jawaban:Contoh dari proses Business process reengineering ini pernah dilakukan oleh perusahaan mobil Ford yang menggantikan sistem mereka yang masih manual dengan sistem database online. Masalah utama yang Ford miliki kala itu adalah departemen ford kelebihan pegawai yang sangat banyak.<p></p>Penjelasan:<p>semoga membantu jadikan jawaban tercerdas ya kak makasih</p><p>maaf klo salah</p><br />
+                                            <h2 class="ez-toc-section" id="q-diket-mpi-50juki-70-nchim-30tentukan-juki-%c3%97-nchim-mpi-pke-carant-%e2%80%8b">
+                            40. Q.diket: mpi = 50Juki = 70 nchim = 30tentukan: juki × nchim - mpi = ? pke cara!nt : :-; ​</h2><br />
+                        Penyelesaian<p></p><p>diket: </p><p></p><p>mpi = 50</p><p>Juki = 70 </p><p>nchim = 30</p><p></p><p>tentukan: </p><p></p><p>juki × nchim - mpi = ? </p><p>= 70 × 30 - 50</p><p>= 2.100 - 50</p><p>= <strong>2</strong><strong>.</strong><strong>0</strong><strong>5</strong><strong>0</strong></p><p>=70 × 30 - 50</p><p>=2.100 - 50</p><p>=2.050</p><p></p>#SEMOGA MEMBANTU <br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/UQHVEvH6A78?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ujian_nasional</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-karya-ilmiah-tentang-pergaulan-bebas.html">Contoh Karya Ilmiah Tentang Pergaulan Bebas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-kualitatif-studi-fenomologis-psikologis-pdf.html">Contoh Jurnal Kualitatif Studi Fenomologis Psikologis Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-soal-jurnal-penjualan-kredit.html">Contoh Soal Jurnal Penjualan Kredit</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skripsi-nilai-tambah.html">Contoh Judul Skripsi Nilai Tambah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-penyesuaian-myob.html">Contoh Jurnal Penyesuaian Myob</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-academic-writing-analytical-grammar.html">Contoh Jurnal Academic Writing Analytical Grammar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/jurnal-contoh-obat-dalam-sediaan-vial-pdf.html">Jurnal Contoh Obat Dalam Sediaan Vial Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-laporan-realisasi-anggaran-dan-jurnal-penutup.html">Contoh Laporan Realisasi Anggaran Dan Jurnal Penutup</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-tesis-4-variabel-bebas.html">Contoh Judul Tesis 4 Variabel Bebas</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-soal-dan-jawaban-mengelola-buku-jurnal.html">Contoh Soal Dan Jawaban Mengelola Buku Jurnal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-tesis-tentang-bpjs.html">Contoh Judul Tesis Tentang Bpjs</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-soal-pph-pasal-21-dan-jurnalnya.html">Contoh Soal Pph Pasal 21 Dan Jurnalnya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-matematika-pada-siswa-sd.html">Contoh Jurnal Matematika Pada Siswa Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-esai-ilmiah-akuntansi.html">Contoh Judul Esai Ilmiah Akuntansi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-bebas-pada-jenis-karya-publikasi-ilmiah-karya-inovatif.html">Contoh Bebas Pada Jenis Karya Publikasi Ilmiah Karya Inovatif</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skrisi-akutansi-keuangan.html">Contoh Judul Skrisi Akutansi Keuangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-soal-jurnal-akuntansi-pemerintah.html">Contoh Soal Jurnal Akuntansi Pemerintah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/jurnal-contoh-kasus-ventrikel-septal-defek-pdf.html">Jurnal Contoh Kasus Ventrikel Septal Defek Pdf</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-pengembangan-karakter-siswa-sd.html">Contoh Jurnal Pengembangan Karakter Siswa Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-editorial.html">Contoh Judul Editorial</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://unduhjurnal.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://unduhjurnal.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

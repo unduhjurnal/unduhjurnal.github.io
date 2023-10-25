@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Jurnal Algoritma Perceptron Pola Angka - BELAJAR</title>
+    <meta name="description" content="Contoh Jurnal Algoritma Perceptron Pola Angka, , , , , , , 0, , , , , , 0, contoh-jurnal-algoritma-perceptron-pola-angka, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Jurnal Algoritma Perceptron Pola Angka - BELAJAR" />
+    <meta property="og:description" content="Contoh Jurnal Algoritma Perceptron Pola Angka, , , , , , , 0, , , , , , 0, contoh-jurnal-algoritma-perceptron-pola-angka, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Jurnal Algoritma Perceptron Pola Angka - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Jurnal Algoritma Perceptron Pola Angka, , , , , , , 0, , , , , , 0, contoh-jurnal-algoritma-perceptron-pola-angka, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://unduhjurnal.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://unduhjurnal.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://unduhjurnal.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://unduhjurnal.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://unduhjurnal.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://unduhjurnal.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://unduhjurnal.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Jurnal Algoritma Perceptron Pola Angka</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">torkishalomoan</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Jurnal+Algoritma+Perceptron+Pola+Angka" alt="Contoh Jurnal Algoritma Perceptron Pola Angka">
+                    </div>
+                    <p></p>
+                    <p>perbedaan dari algoritma Multi Perceptron  dan algoritma probabilistik ?</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perbedaan-dari-algoritma-multi-perceptron-dan-algoritma-probabilistik">1.
+                                            perbedaan dari algoritma Multi Perceptron  dan algoritma probabilistik ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-perceptron-dapat-diaplikasikan-untuk-apa-saja-di-jst-sebutkan-dan-jelaskan-contohnya">2.
+                                            Algoritma Perceptron dapat diaplikasikan untuk apa saja di JST, Sebutkan dan jelaskan Contohnya?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-perhatikan-contoh-algoritma-dibawah-ini-algoritma-bilanganangka-integerangkawrite-angkaendpada-bagian-angkaintegermerupakan-bagiana-judul-algoritmab-deklarasi-algoritmac-badan-algoritmad">3.
+                                            2.Perhatikan contoh algoritma dibawah ini.Algoritma Bilanganangka : integerangkawrite (angka)endPada bagian "angka:integer"merupakan bagianA. judul algoritmaB. deklarasi algoritmaC. badan algoritmaD. hender algoritmaE footer algoritmaAnalisis:perhatiaritm​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perincian-masalah-dan-pengidentifikasian-pola-dalam-suatu-algoritma-disebut%e2%80%8b">4.
+                                            Perincian masalah dan pengidentifikasian pola dalam suatu algoritma disebut​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#guna-menyelesaikan-setiap-masalah-algoritma-berkaitan-dengana-pola-pikir-manusiab-pengejaan-hurufc-huruf-yang-sulitd-angka-normal%e2%80%8b">5.
+                                            guna menyelesaikan setiap masalah algoritma berkaitan dengana. pola pikir manusiab. pengejaan hurufc. huruf yang sulitd. angka normal​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-algoritma-runtutan-algoritma-pemilihan-algoritma-perulangan-dalam-kehidupan-sehari-hari%e2%80%8b">6.
+                                            Contoh algoritma runtutan, algoritma pemilihan, algoritma perulangan dalam kehidupan sehari hari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-satu-benda-atau-kasus-dan-contoh-penerapan-dalam-4-aspek-seperti-abstraksi-dekomposisi-pola-algoritma%e2%80%8b">7.
+                                            sebutkan satu benda atau kasus dan contoh penerapan dalam 4 aspek seperti abstraksi, dekomposisi, pola, algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-angka-dari-3691">8.
+                                            Algoritma angka dari 3691</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-tahapan-yang-benar-dalam-computationalthinking-adalah-a-decomposition-%e2%86%92-pengenalan-pola-%e2%86%92algoritma-%e2%86%92-abstraksib-decomposition-%e2%86%92-algoritma-%e2%86%92abstraksi">9.
+                                            1. Tahapan yang benar dalam computationalthinking adalah ....A. decomposition → pengenalan pola →algoritma → abstraksiB. decomposition → algoritma →abstraksi → pengenalan polaC. decomposition → pengenalan pola →abstraksi → algoritmaD. decomposition → abstraksi →pengenalan pola → algoritma2. jenis memori yang dapat bersembunyi di crack dan patch disebut...A.adware        C. exploit B. rootkit         D. wabbit​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-dari-angka-5035">10.
+                                            Algoritma dari angka 5035</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-contoh-algoritma-sederhana">11.
+                                            Contoh-Contoh Algoritma sederhana!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jabarkan-tentang-pola-conquer-pada-algoritma-quick-sort">12.
+                                            Jabarkan tentang pola conquer pada algoritma quick sort?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-pola-dalam-algoritma%e2%80%8b">13.
+                                            Apa itu pola dalam algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jabarkan-tentang-pola-divide-algoritma-quick-sort">14.
+                                            jabarkan tentang pola divide algoritma quick sort!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-konsep-perceptron-%e2%80%8b">15.
+                                            jelaskan konsep perceptron ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-itu-apacontohnya-seperti-apa">16.
+                                            Algoritma itu apa?
+Contohnya seperti apa?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-algoritma-tebak-angka-dalam-bahasa-indonesia%e2%80%8b">17.
+                                            tuliskan algoritma tebak angka dalam bahasa Indonesia​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-yang-dimaksud-dengan-dekomposisi-pengenalan-pola-abstraksi-dan-algoritma-tuliskan-contoh-kasusnya%e2%80%8b">18.
+                                            jelaskan yang dimaksud dengan dekomposisi pengenalan pola abstraksi dan algoritma tuliskan contoh kasusnya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-masalah-lakukan-identifikasi-dan-jabarkan-ke-dalam-empat-elemen-penting-berpikir-komutasional-yaitu-dekomposisi-pengenalan-pola-abstraksi-algoritma-%e2%80%8b">19.
+                                            contoh masalah lakukan identifikasi dan jabarkan ke dalam empat elemen penting berpikir komutasional yaitu dekomposisi, pengenalan pola, abstraksi, algoritma.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kemudian-menampilkan-yang-paling-kecil%e2%80%8b">20.
+                                            tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling kecil​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menjelaskan-apa-itu-dekomposisi-abstraksi-pengenalan-pola-dan-algoritma-serta-contoh-penyelesaiannya-masalahnya%e2%80%8b">21.
+                                            menjelaskan apa itu dekomposisi, abstraksi, pengenalan pola dan algoritma serta contoh penyelesaiannya masalahnya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#menarik-kesimpulan-dari-pola-yang-ditemukan-adalah-keterampilan-dalam-a-dekimposisib-pengenalan-polac-berpikir-algoritmad-generalisasi-dan-berpikir-pola%e2%80%8b">22.
+                                            menarik kesimpulan dari pola yang ditemukan adalah keterampilan  dalam..a.dekimposisib.pengenalan polac.berpikir algoritmad.generalisasi dan berpikir  pola​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-berpikir-komputasional-dibutuhkan-beberapa-teknik-diantaranya-adalah-kecuali-a-dekomposisib-pengenalan-polac-desain-algoritmad-aljabar-dan-algoritma%e2%80%8b">23.
+                                            dalam berpikir komputasional dibutuhkan beberapa teknik diantaranya adalah..., kecuali... *A.dekomposisiB.pengenalan polaC.desain algoritmaD.aljabar dan algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-kondisi-berhenti-apa-saja-yang-boleh-ditetapkan-tehnik-perceptron">24.
+                                            Jelaskan kondisi berhenti apa saja yang boleh ditetapkan tehnik perceptron</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-algoritma-sequensial-algoritma-perulangan-dan-algoritma-percabangan-dalam-kehidupan-sehari-hari%e2%80%8b">25.
+                                            contoh algoritma sequensial, algoritma perulangan dan algoritma percabangan dalam kehidupan sehari hari​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#perhatikan-algoritma-berikut-algoritma-menuliskan-angkadeklarasiangka-integeralgoritmaangka-s-%e2%80%9819%e2%80%99writeangkaend-algoritma-di-atas-memiliki-nama-variable-yaitu-select">26.
+                                            Perhatikan algoritma berikut :            Algoritma menuliskan angkaDeklarasiAngka : integerAlgoritmaAngka ß ‘19’Write(angka)End.Algoritma di atas memiliki nama variable yaitu :Select one:a. Integerb. Bilanganc. 20d. 19e. Angka​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-digunakan-untuk-menampilkan-angka-yang-lebih-besar">27.
+                                            Algoritma yang digunakan untuk menampilkan angka yang lebih besar</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apabila-yang-dimasukkan-angka-5-maka-y-angka10100-buatlah-algoritma-pseudocode-dan-algoritma-flowchart-nya%e2%80%8b">28.
+                                            apabila yang dimasukkan angka &gt; 5, maka Y= angka*10+100 buatlah algoritma pseudocode dan algoritma flowchart nya​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berpikir-komputasi-merupakan-metode-dan-proses-berpikir-untuk-penyelesaian-persoalan-dengan-urutan-yang-benar-sebagai-berikut-yaitu-a-dekomposisi-pengenalan-pola-abstraksi-desain-algoritma-b-penge">29.
+                                            berpikir komputasi merupakan metode dan proses berpikir untuk penyelesaian persoalan dengan urutan yang benar sebagai berikut yaitu..a.dekomposisi, pengenalan pola, abstraksi, desain algoritma b.pengenalan pola, abstraksi, desain algoritma, dekomposisic. abstraksi, desain algoritma, dekomposisi, pengenalan polad. desain algoritma, dekomposisi, pengenalan pola, abstraksi mohon bantuannya terimakasih ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-struktur-dan-algoritma-mencetak-angka-genap-yang-ada-diantara-angka-0-50">30.
+                                            Buatlah struktur dan algoritma mencetak angka genap, yang ada diantara angka 0-50</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-algoritmaapa-contoh-algoritma-yang-terjadi-dirumah%e2%80%8b">31.
+                                            Apa itu algoritma?apa contoh algoritma yang terjadi dirumah?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-tuliskan-3-contoh-algoritma-urut2-tuliskan-3-contoh-algoritma-perulangan3-tuliskan-3-contoh-algoritma-percabangan">32.
+                                            1. Tuliskan 3 contoh algoritma Urut
+2. Tuliskan 3 contoh algoritma Perulangan
+3. Tuliskan 3 contoh algoritma Percabangan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-pengertian-pola-dalam-algoritma%e2%80%8b">33.
+                                            tuliskan pengertian pola dalam algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-contoh-algoritma-sekuensial-algoritma-perulangan-dan-algoritma-percabangan-dalam-kehidupan-sehari-hari%e2%80%8b">34.
+                                            sebutkan contoh algoritma sekuensial, algoritma perulangan, dan algoritma percabangan dalam kehidupan sehari hari!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buat-algoritma-untuk-menampilkan-deret-angka-berikut-025102637">35.
+                                            Buat algoritma untuk menampilkan deret angka berikut 0,2,5,10,26,37.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#2-perhatikan-contoh-algoritma-dibawah-inialgoritma-bilanganpada-bagian-angka-integermerupakan-bagiana-judul-algoritmab-deklarasi-algoritmabadan-algoritmad-reader-algoritmabozer-algoritma%e2%80%8b">36.
+                                            2.Perhatikan contoh algoritma dibawah iniAlgoritma BilanganPada bagian angka integer"merupakan bagianA judul algoritmaB deklarasi algoritmabadan algoritmaD. Reader algoritmaBozer algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#mhd-nur-alfatha-dashboard-profile-grades-messages-preferences-log-outsmkn-2-binjai-pemrograman-dasar-x-tkj-3dashboardmy-coursespemrograman-dasar-x-tkj-3menerapkan-alur-logika-pemrograman-ko">37.
+                                              MHD. NUR ALFATHA . Dashboard Profile Grades Messages Preferences Log outSMKN 2 BINJAI / PEMROGRAMAN DASAR / X TKJ 3DashboardMy coursesPEMROGRAMAN DASAR / X TKJ 3Menerapkan Alur Logika Pemrograman KomputerQUIZ IQuestion 1Not yet answeredMarked out of 50.00Not flaggedFlag questionQuestion textPerhatikan contoh algoritma berikut inialgoritma menuliskan angkadeklarasi            angka: integeralgoritma            angka ← ‘16’            write (angka)            endPada contoh algoritma diatas apabila variabel diberi nilai 16, maka output yang dihasilkan juga bernilai 16. tapi apabila diberikan nilai “angka” , maka output dari algoritma diatas akan bernilai... Select one:a. tidak dapat dieksekusib. integerc. 16d. angkae. 0​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-jelaskan-apa-yang-dimaksud-dengan-berpikir-komputasional-dan-berikan-contohnya-sertakan-dengan-pengelompokan-dikomposisi-pengenalan-pola-abstraksi-algoritma%e2%80%8b">38.
+                                            1. Jelaskan apa yang dimaksud dengan berpikir komputasional dan berikan contohnya sertakan dengan pengelompokan (Dikomposisi, Pengenalan Pola, Abstraksi, Algoritma?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sesudah-angka-55-yg-keluar-dari-hitungan-algoritma-adalah-berapa%e2%80%8b">39.
+                                            sesudah angka 55 yg keluar dari hitungan algoritma adalah berapa?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#3-tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kemudian-menampilkan-yang-paling-besar-jawab-4-tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kem">40.
+                                            3.	Tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling besar! Jawab : .......................................... 4.	Tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling kecil! Jawab : .......................................... 5.	Tulislah sebuah algoritma untuk membaca tiga angka kemudian menampilkan yang paling besar! Jawab : .......................................... (bantu dong kak plisss besok dikumpulkan)​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="perbedaan-dari-algoritma-multi-perceptron-dan-algoritma-probabilistik">
+                            1. perbedaan dari algoritma Multi Perceptron  dan algoritma probabilistik ?</h2><br />
+                        algoritma perceptron adalah proses pembelajaran yang melakukan perbaikan bobot bobotnya pd setiap epoch (proses perulangan 1 kali untuk setiap data set input-output). <br />
+                                            <h2 class="ez-toc-section" id="algoritma-perceptron-dapat-diaplikasikan-untuk-apa-saja-di-jst-sebutkan-dan-jelaskan-contohnya">
+                            2. Algoritma Perceptron dapat diaplikasikan untuk apa saja di JST, Sebutkan dan jelaskan Contohnya?</h2><br />
+                        <p><strong>Perceptron</strong> merupakan unit jaringan saraf yang melakukan <strong>perhitungan tertentu </strong>untuk mendeteksi fitur atau kecerdasan bisnis dalam data input. <strong>Algoritma Perceptron</strong> adalah fungsi yang memetakan inputnya "x", yang dikalikan dengan koefisien bobot yang dipelajari, dan menghasilkan nilai output.</p>Pembahasan<p><strong>Algoritma Perceptron</strong> mempelajari bobot untuk sinyal input untuk menggambar batas keputusan linier. Ini memungkinkan kita untuk membedakan antara dua kelas yang dapat dipisahkan secara linier +1 dan -1.</p><p><strong>Algoritma Perceptron </strong>dapat diaplikasikan dalam beberapa hal, yaitu:</p><p><strong>1.</strong> <strong>Kompresi Data</strong>, Streaming Encoding - Media sosial, Streaming Musik, Platform Video Online.</p><p>Awalnya struktur dan konten file dianalisis dan dinilai. Selanjutnya, diubah agar sesuai dengan persyaratan tertentu.</p><p><strong>2</strong>.<strong> Enkripsi Data - Keamanan Data</strong> / Perlindungan Kehilangan Data.</p><p>Enkripsi data adalah variasi dari kompresi data. Perbedaannya adalah bahwa sementara kompresi data dirancang untuk mempertahankan bentuk asli data, enkripsi melakukan sebaliknya - menyembunyikan konten data dan membuatnya tidak dapat dipahami dalam bentuk yang disandikan.</p><p>Jaringan saraf multilayer <strong>perceptron biasanya digunakan </strong>oleh organisasi yang berbeda untuk mengkodekan basis data, titik masuk, memantau data akses, dan secara rutin memeriksa konsistensi keamanan basis data.</p><p>3. <strong>Visualisasi Data</strong> - Analisis Data untuk Bisnis</p><p>Menyajikan data dalam bentuk yang dapat diakses sama pentingnya dengan memahami wawasan di baliknya. Karena itu, visualisasi data adalah salah satu alat yang paling layak dalam menggambarkan keadaan dan menjelaskan data yang kompleks dalam istilah yang sederhana.</p><p>4.<strong> Pengenalan Gambar,</strong> Deteksi objek, Penyesuaian Rute</p><p>Dasar dari kerangka kerja otonom terdiri dari <strong>perceptron multilaye</strong>r yang menghubungkan mata sistem (alias umpan video) dan komponen kendaraan (alias roda kemudi).</p>Pelajari lebih lanjut<p>Materi tentang jaringan saraf tiruan: https://brainly.co.id/tugas/51548327</p><p><strong>#BelajarBersamaBrainly #SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="2-perhatikan-contoh-algoritma-dibawah-ini-algoritma-bilanganangka-integerangkawrite-angkaendpada-bagian-angkaintegermerupakan-bagiana-judul-algoritmab-deklarasi-algoritmac-badan-algoritmad">
+                            3. 2.Perhatikan contoh algoritma dibawah ini.Algoritma Bilanganangka : integerangkawrite (angka)endPada bagian "angka:integer"merupakan bagianA. judul algoritmaB. deklarasi algoritmaC. badan algoritmaD. hender algoritmaE footer algoritmaAnalisis:perhatiaritm​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>a.judul algoritma</p><p></p><p>maaf kalo salah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="perincian-masalah-dan-pengidentifikasian-pola-dalam-suatu-algoritma-disebut%e2%80%8b">
+                            4. Perincian masalah dan pengidentifikasian pola dalam suatu algoritma disebut​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Masukan</p><p><strong>Penjelasan:</strong></p><p>Masukan : perincian masalah dan pengidentifikasian pola. </p><p><strong>Jawaban:</strong></p><p>disebut Pemikiran Komputasi adalah proses ... Salah satu aspek terpenting dari perancangan algoritma adalah membuat ... ingin diselesaikan; Masukan : perincian masalah dan pengidentifikasian pola</p><p><strong>Penjelasan:</strong></p><p>maaf klo slh ya.........</p><br />
+                                            <h2 class="ez-toc-section" id="guna-menyelesaikan-setiap-masalah-algoritma-berkaitan-dengana-pola-pikir-manusiab-pengejaan-hurufc-huruf-yang-sulitd-angka-normal%e2%80%8b">
+                            5. guna menyelesaikan setiap masalah algoritma berkaitan dengana. pola pikir manusiab. pengejaan hurufc. huruf yang sulitd. angka normal​</h2><br />
+                        <p><strong>Jawaban :</strong></p><p><strong>A. Pola pikir manusia</strong></p><p><strong>Penjelasan :</strong></p><p>Kata kunci dari Algoritma adalah sistematis dan logis, jadi ini sangat berhubungan dengan Pola pikir manusia yang logis.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-algoritma-runtutan-algoritma-pemilihan-algoritma-perulangan-dalam-kehidupan-sehari-hari%e2%80%8b">
+                            6. Contoh algoritma runtutan, algoritma pemilihan, algoritma perulangan dalam kehidupan sehari hari​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Algoritma pengulangan terdapat tugas yang dilakukan berulang-ulang. Dalam banyak algoritma pengulangan, pertama-tama terdapat pertanyaan, jika ...</p><p><strong>Penjelasan:</strong></p>kalau salah saya mintak maaf ya<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-satu-benda-atau-kasus-dan-contoh-penerapan-dalam-4-aspek-seperti-abstraksi-dekomposisi-pola-algoritma%e2%80%8b">
+                            7. sebutkan satu benda atau kasus dan contoh penerapan dalam 4 aspek seperti abstraksi, dekomposisi, pola, algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>. Dekomposisi</p><p>Dekomposisi merupakan kegiatan penguraian atau memecah masalah yang besar ke komponen-komponen terkecil dari masalah tersebut</p><p></p><p>2. Pengenalan Pola</p><p>Setelah dilakukannya dekomposisi, lanjut ke pengenalan pola yaitu dari komponen-komponen terkecil masalah tersebut dapat ditemukannya pola. Pengenalan pola juga dapat mempermudah ketika penyelesaian masalah, apabila tahap ini diabaikan maka akan timbu penyelesaian masalah secara terus menerus setiap kali ada masalah baru yang muncul.</p><p></p><p>3. Abstraksi</p><p>Abstraksi merupakan proses memilah atau menyaring informasi yang penting untuk menyelesaikan masalah dan mengabaikan hal yang tidak diperlukan dalam proses penyelesaian masalahnya.</p><p></p><p>4. Algoritma</p><p>Algoritma merupakan serangkaian intruksi yang dijalankan untuk menyelesaikan masalah secara sistematis dari tahap awal hingga tahap akhir.</p><p></p><p>Untuk contoh kehidupan sehari-hari menggunakan berpikir komputasi bisa diambil dari mencuci pakaian.</p><p></p><p>Dekomposisi akan dilakukan ketika kita akan menentukan dan mengelompokkan apa saja proses yang akan dilakukan, seperti memisahkan pakaian sesuai dengan kegunaannya, menyiapkan ember dan alat cuci, proses mencuci, menjemur, dan lainnya.</p><p></p><p>Pengenalan pola, akan dilakukan ketika kita akan melihat pakaian yang akan dicuci, ketika memilah pakaiannya kita akan mengetahui jenis pakaian yang menunjukkan bahwa pakaian mana yang layak di cuci atau tidak.</p><p></p><p>Abstraksi dalam mencuci pakaian ini yaitu kita bisa menemukan pakaian mana yang kotor, dan kita akan mengidentifikasi pakaian menurut tingkat kekotorannya.</p><p></p><p>Setelah 3 tahap diatas terlewati, kita akan bisa mengurutkan pemecahan masalah dari mencuci pakaian. Dimulai dari memilah pakaian, menyiapkan alat, mencuci pakaian, memeras, dan yang terakhir adalah menjemurnya.</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-angka-dari-3691">
+                            8. Algoritma angka dari 3691</h2><br />
+                        <p><strong>Jawab:</strong></p><p>Algoritma angka dari 3691 adalah 1369.</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>Untuk menemukan algoritma angka dari 3691, pertama-tama kita perlu mengurutkan digit-digit dari angka tersebut dari yang terkecil hingga yang terbesar.</p><p></p><p>Digit-digit dari angka 3691 yang terurut dari yang terkecil hingga yang terbesar adalah: 1, 3, 6, 9.</p><p></p><p>Setelah itu, kita dapat menggabungkan digit-digit tersebut menjadi satu angka baru dengan cara menuliskan digit-digit tersebut secara berurutan dari yang terkecil hingga yang terbesar.</p><p></p><p>Jadi, algoritma angka dari 3691 adalah 1369.</p><br />
+                                            <h2 class="ez-toc-section" id="1-tahapan-yang-benar-dalam-computationalthinking-adalah-a-decomposition-%e2%86%92-pengenalan-pola-%e2%86%92algoritma-%e2%86%92-abstraksib-decomposition-%e2%86%92-algoritma-%e2%86%92abstraksi">
+                            9. 1. Tahapan yang benar dalam computationalthinking adalah ....A. decomposition → pengenalan pola →algoritma → abstraksiB. decomposition → algoritma →abstraksi → pengenalan polaC. decomposition → pengenalan pola →abstraksi → algoritmaD. decomposition → abstraksi →pengenalan pola → algoritma2. jenis memori yang dapat bersembunyi di crack dan patch disebut...A.adware        C. exploit B. rootkit         D. wabbit​</h2><br />
+                        <p> </p><p> Computational Thinking adalah dengan memahami masalah, mengumpulkan semua data, lalu mulai mencari solusi sesuai dengan masalah. Dalam Computational Thinking, ada yang disebut dengan dekomposisi yaitu kita memecah suatu masalah yang komplek menjadi masalah-masalah yang kecil untuk diselesaikan</p><p> </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-dari-angka-5035">
+                            10. Algoritma dari angka 5035</h2><br />
+                        <p>KAMU NANYA?....,....................biar aku kasih tau yah</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-contoh-algoritma-sederhana">
+                            11. Contoh-Contoh Algoritma sederhana!</h2><br />
+                        algoritma adalah spesifikasi urutan langkah untuk melakukan pekerjaan tertentu atau algoritma juga bisa diartikan logika, metode dan tahapan (urutan) sistematis yang digunakan untuk memecahkan suatu permasalahan, contoh nya :                 - interval valhing (pembagi interval)                                                                       <br />
+                                            <h2 class="ez-toc-section" id="jabarkan-tentang-pola-conquer-pada-algoritma-quick-sort">
+                            12. Jabarkan tentang pola conquer pada algoritma quick sort?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p><strong>Penjelasan:</strong></p><p>Pola conquer pada algoritma Quick Sort adalah langkah di mana subarray yang lebih kecil dibagi menjadi sub-subarray yang lebih kecil atau elemen individual, dan kemudian diurutkan secara rekursif. Ini terjadi setelah proses pemisahan (divide) dalam algoritma Quick Sort. Dalam fase conquer, setiap subarray yang lebih kecil diurutkan secara terpisah menggunakan algoritma Quick Sort.</p><p></p><p>Berikut adalah langkah-langkah dan penjelasan pola conquer pada algoritma Quick Sort:</p><p></p><p>1. **Memecah Subarray:**</p><p>   Setelah pemisahan (divide) dilakukan, array awal terbagi menjadi dua bagian, yaitu subarray yang lebih kecil. Langkah conquer akan diterapkan pada setiap subarray ini.</p><p></p><p>2. **Urutkan Subarray Secara Rekursif:**</p><p>   Pada langkah conquer, setiap subarray yang lebih kecil akan diurutkan secara rekursif menggunakan algoritma Quick Sort. Proses ini melibatkan pemisahan (divide) kembali dan kemudian pengurutan subarray-subarray tersebut.</p><p></p><p>3. **Elemen Individual:**</p><p>   Pada titik tertentu dalam rekursi, subarray akan menjadi sangat kecil sehingga hanya terdiri dari satu atau dua elemen. Pada titik ini, subarray dianggap sudah terurut karena elemen individunya.</p><p></p><p>4. **Penggabungan:**</p><p>   Setelah semua subarray lebih kecil diurutkan, langkah conquer menggabungkan kembali subarray-subarray ini sehingga membentuk subarray yang lebih besar dan terurut. Namun, perhatikan bahwa penggabungan ini biasanya tidak memerlukan langkah tambahan dalam algoritma Quick Sort karena pengurutan telah terjadi secara in-place dalam array.</p><p></p><p>Pola conquer ini membantu menerapkan prinsip "divide and conquer" dalam algoritma Quick Sort. Dengan memecah masalah menjadi sub-masalah yang lebih kecil, algoritma ini secara efisien mengurutkan seluruh array dengan memanfaatkan rekursi untuk mengurutkan subarray-subarray yang lebih kecil. Setelah seluruh subarray terurut, array induk juga akan terurut karena sifat transitif pembandingan dalam algoritma Quick Sort.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-pola-dalam-algoritma%e2%80%8b">
+                            13. Apa itu pola dalam algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Pengenalan pola merupakan sistem pengenalan terhadap suatu objek, dimana objek yang dimaksud dapat berupa citra digital.</p><p></p><p></p><p></p><p></p><p></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="jabarkan-tentang-pola-divide-algoritma-quick-sort">
+                            14. jabarkan tentang pola divide algoritma quick sort!</h2><br />
+                        <p>Algoritma Quick Sort merupakan salah satu algoritma pengurutan yang bekerja dengan memanfaatkan pola divide and conquer. Di bawah ini adalah penjabaran mengenai pola divide dalam algoritma Quick Sort:</p><p></p><p>1. Tahap Awal:</p><p>   - Pilih elemen pivot dari array yang akan diurutkan. Pivot dapat dipilih secara acak atau dengan menggunakan strategi tertentu, seperti memilih elemen tengah atau median dari tiga elemen.</p><p>   - Bagi array menjadi dua bagian, yaitu array bagian kiri dan array bagian kanan, berdasarkan nilai pivot.</p><p>   - Perbandingan dilakukan untuk memindahkan elemen-elemen yang lebih kecil daripada pivot ke bagian kiri dan elemen-elemen yang lebih besar ke bagian kanan.</p><p></p><p>2. Tahap Rekursif:</p><p>   - Rekursif dilakukan pada kedua bagian array yang terbentuk (bagian kiri dan bagian kanan).</p><p>   - Pada setiap rekursi, langkah-langkah yang sama dilakukan seperti tahap awal, yaitu memilih pivot dari bagian array yang lebih kecil dan membagi array menjadi dua bagian berdasarkan pivot.</p><p></p><p>3. Tahap Penggabungan:</p><p>   - Setelah rekursi selesai, hasil pengurutan akan dikombinasikan kembali. Ini dilakukan dengan cara menggabungkan array bagian kiri, pivot, dan array bagian kanan dengan urutan yang tepat.</p><p>   - Pivot ditempatkan pada posisi yang benar, sehingga semua elemen di bagian kiri pivot lebih kecil daripada pivot dan semua elemen di bagian kanan pivot lebih besar daripada pivot.</p><p></p><p>4. Tahap Berulang:</p><p>   - Jika masih ada array yang perlu diurutkan atau dibagi lebih lanjut, tahap awal dan rekursif akan terus diulang pada setiap subarray yang terbentuk dengan pemilihan pivot baru di setiap langkahnya.</p><p>   - Proses ini berlanjut hingga semua subarray terurut dan digabungkan secara tepat.</p><p></p><p>Melalui pola divide ini, Quick Sort memecah masalah pengurutan menjadi submasalah yang lebih kecil dan lebih mudah diatasi. Dengan memanfaatkan strategi pemilihan pivot yang efisien dan pengaturan elemen-elemen dengan benar pada setiap iterasi, algoritma Quick Sort dapat melakukan pengurutan dengan cepat dan efisien.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-konsep-perceptron-%e2%80%8b">
+                            15. jelaskan konsep perceptron ​</h2><br />
+                        <p>Konsep perceptron adalah salah satu metode Jaringan Syaraf Tiruan (JST) sederhana yang menggunakan algoritma training untuk melakukan klasifikasi secara linier. </p><p></p><p></p><p>maaf klo salah : )</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-itu-apacontohnya-seperti-apa">
+                            16. Algoritma itu apa?
+Contohnya seperti apa?</h2><br />
+                        Algoritma adalah langkah-langkah yang disusun secara tertulis dan berurutan untuk menyelesaikan suatu masalah dan contohnya srperti buatlah algotitma mengenai frekuensi / lambang x dan y Algoritma adalah urutan langkah- langkah logis untuk penyelesaian masalah yang disusun secara sistematis dan logis.<br />
+                                            <h2 class="ez-toc-section" id="tuliskan-algoritma-tebak-angka-dalam-bahasa-indonesia%e2%80%8b">
+                            17. tuliskan algoritma tebak angka dalam bahasa Indonesia​</h2><br />
+                        <p>Jawaban:</p><p>1. Mulai</p><p>2. Inisialisasi variabel angka_acak dengan bilangan bulat acak antara batas awal dan batas akhir (misalnya antara 1 hingga 100).</p><p>3. Inisialisasi variabel tebakan dengan nilai awal 0.</p><p>4. Tampilkan pesan "Selamat datang di permainan Tebak Angka!"</p><p>5. Tampilkan pesan "Tebak angka antara 1 hingga 100:"</p><p>6. Selama tebakan tidak sama dengan angka_acak, lakukan langkah berikut:</p><p>   7. Baca input dari pengguna dan simpan dalam variabel tebakan.</p><p>   8. Jika tebakan kurang dari angka_acak, tampilkan pesan "Tebakan terlalu rendah!"</p><p>   9. Jika tebakan lebih dari angka_acak, tampilkan pesan "Tebakan terlalu tinggi!"</p><p>   10. Jika tebakan sama dengan angka_acak, lakukan langkah berikut:</p><p>       11. Tampilkan pesan "Selamat! Anda berhasil menebak angka yang benar."</p><p>       12. Tampilkan pesan "Angka yang benar adalah: " + angka_acak</p><p>   13. Ulangi langkah 6.</p><p>14. Selesai</p><p></p><p>Algoritma di atas adalah contoh sederhana dari permainan tebak angka. Permainan ini akan terus berlanjut hingga pengguna menebak angka yang benar. Setiap tebakan akan memberikan petunjuk apakah angka yang ditebak terlalu rendah atau terlalu tinggi. Jika tebakan benar, permainan akan berakhir dan menampilkan angka yang benar.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-yang-dimaksud-dengan-dekomposisi-pengenalan-pola-abstraksi-dan-algoritma-tuliskan-contoh-kasusnya%e2%80%8b">
+                            18. jelaskan yang dimaksud dengan dekomposisi pengenalan pola abstraksi dan algoritma tuliskan contoh kasusnya​</h2><br />
+                        <p><strong>Penjelasan </strong>dari soal tersebut dapat kita pecahkan sebagai berikut:</p><p>Dekomposisi adalah:</p><p>Pembusukan atau dekomposisi merupakan salah satu perubahan secara kimia yang membuat objek, biasanya makhluk hidup yang mati dapat mengalami perusakan susunan/struktur yang dilakukan oleh dekomposer atau media pembusukan.</p><p>Contoh kasus.</p>Proses penentuan harga jual suatu produk barang/jasa.Proses memperlajari materi yang luas.Proses pembuatan film.<p>Pola abstrak adalah:</p><p>Pola yang bentuknya tidak teratiur atau lebih dikenal dengan pola acakan.</p><p>Contoh kasus:</p>Ketika kita menggunakan sebuah komputer, kita hanya fokus terhadap pekerjaan yang kita lakukan dengan abstraksi kita mampu memformulasikan sebuah masalah yang pernah ditemui agar ... Contoh abstraksi masalah dalam kehidupan sehari-hari adalah Misalnya dengan melihatKetika kita menggunakan sebuah komputer, kita hanya fokus terhadap pekerjaan yang kita lakukan dengan abstraksi kita mampu memformulasikan sebuah masalah yang pernah ditemui agar ... Contoh abstraksi masalah dalam kehidupan sehari-hari adalah Misalnya dengan melihatproses pemikiran, yang terlepas dari teknologi. ... mana membuat kita dapat menggunakan computer atau alat lain.<p>Algoritma adalah:</p><p>Sekumpulan instruksi yang terstruktur dan terbatas yang diimplementasikan kedalam bentuk program komputer untuk menyelesaikan suatu masalah komputasi tertentu. Dalam matematika dan ilmu komputer, algoritme adalah prosedur langkah-demi-langkah untuk penghitungan.</p><p>contoh kasus:</p>Algoritma menyalakan ponselAlgoritma mencetak dokumen dengan printer<p><strong>Pembahasan:</strong></p><p><strong>Dalam ilmu komputer</strong>, teori adalah model komputasi yang dapat digunakan untuk menganalisis dan memprediksi perilaku algoritma. Teori yang paling terkenal adalah mesin Turing, yang merupakan model perangkat komputasi hipotetis yang dapat mengeksekusi algoritma apa pun.</p><p>Teori lain termasuk mesin Abstraksi, yang merupakan model komputasi yang menangkap esensi dari algoritma; dan mesin Decomposition, yaitu model komputasi yang menguraikan algoritma menjadi bagian-bagian yang lebih kecil.</p><p>Teori adalah alat penting bagi ilmuwan komputer karena memungkinkan kita untuk memahami dan memprediksi perilaku algoritma. Dengan memahami bagaimana sebuah teori bekerja, kita dapat merancang algoritma yang lebih baik dan meningkatkan kemampuan kita untuk memecahkan masalah yang kompleks.</p><p><strong></strong></p><p><strong>Pelajari Lebih Lanjut</strong></p>Materi tentang jenis search engine brainly.co.id/tugas/2145570Materi tentang pembuatan website brainly.co.id/tugas/2883731Materi tentang pengertian website brainly.co.id/tugas/4944262<p><strong>Detail Jawaban</strong></p><p>Kelas : 8</p><p>Mapel : TIK</p><p>Bab : Alternatif Pembelajaran Online</p><p>Kode : -</p><p><strong></strong></p><p><strong>#AyoBelajar #SPJ2</strong></p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="contoh-masalah-lakukan-identifikasi-dan-jabarkan-ke-dalam-empat-elemen-penting-berpikir-komutasional-yaitu-dekomposisi-pengenalan-pola-abstraksi-algoritma-%e2%80%8b">
+                            19. contoh masalah lakukan identifikasi dan jabarkan ke dalam empat elemen penting berpikir komutasional yaitu dekomposisi, pengenalan pola, abstraksi, algoritma.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>maksudnya gimana ya!!</p><p><strong>Penjelasan:</strong></p><p>maaf ga bisa bantu</p><p><strong>Jawaban:</strong></p><p>1.Dekomposisi,</p><p>yakni dekomposisi dan formulasi persoalan sedemikian rupa sehingga dapat diselesaikan dengan cepat dan efisien serta optimal.</p><p>2.Pengenalan pola persoalan ,</p><p>dilakukan sebagai generalisasi terhadap pola persoalan serta mentransfer proses penyelesaian persoalan ke persoalan lain yang sejenis, sehingga pola dari persoalan diketahui</p><p>3.Abstraksi,</p><p>yaitu menyarikan bagian penting dari suatu permasalahan dan mengabaikan yang tidak penting sehingga memudahkan fokus kepada solusi</p><p>4.Algoritma,</p><p>yaitu menuliskan Otomasi solusi melalui berpikir algoritmik(langkah-langkah yang terurut) untuk mencapai suatu tujuan (solusi).</p><p><strong>Penjelasan:</strong></p><p>semoga membantu (⁠•⁠‿⁠•⁠)</p><br />
+                                            <h2 class="ez-toc-section" id="tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kemudian-menampilkan-yang-paling-kecil%e2%80%8b">
+                            20. tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling kecil​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>3. algoritma .4. algoritma . 5 . bumi </p><br />
+                                            <h2 class="ez-toc-section" id="menjelaskan-apa-itu-dekomposisi-abstraksi-pengenalan-pola-dan-algoritma-serta-contoh-penyelesaiannya-masalahnya%e2%80%8b">
+                            21. menjelaskan apa itu dekomposisi, abstraksi, pengenalan pola dan algoritma serta contoh penyelesaiannya masalahnya​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Dekomposisi:</p><p>Dekomposisi adalah proses memecah masalah yang kompleks menjadi bagian-bagian yang lebih kecil atau submasalah yang lebih mudah dipecahkan. Dengan memisahkan masalah menjadi bagian yang lebih terkelola, dekomposisi membantu dalam pemahaman yang lebih baik, penyelesaian yang efisien, dan pengorganisasian yang lebih baik.</p><p></p><p>Contoh:</p><p>Misalkan terdapat masalah untuk membuat sebuah aplikasi to-do list. Dalam dekomposisi, kita dapat memecah masalah ini menjadi beberapa submasalah, seperti antarmuka pengguna, manajemen tugas, penyimpanan data, dan notifikasi. Setiap submasalah ini dapat dipecahkan secara terpisah dengan fokus pada tujuan dan persyaratan masing-masing.</p><p></p><p>2. Abstraksi:</p><p>Abstraksi adalah proses mengidentifikasi dan mengekstrak informasi penting atau inti dari suatu masalah atau situasi yang kompleks, sementara mengabaikan detail yang tidak relevan. Tujuan dari abstraksi adalah untuk menyederhanakan pemahaman dan representasi masalah sehingga lebih mudah dipahami dan dikelola.</p><p></p><p>Contoh:</p><p>Misalnya, dalam pemrograman, kita dapat menggunakan fungsi atau modul untuk menerapkan abstraksi. Sebagai contoh, jika kita ingin menghitung nilai rata-rata dari sejumlah angka, kita dapat membuat sebuah fungsi yang mengambil daftar angka sebagai input dan mengembalikan nilai rata-ratanya. Dalam hal ini, kita secara abstrak menggunakan fungsi tanpa perlu tahu detail tentang bagaimana fungsi tersebut diimplementasikan.</p><p></p><p>3. Pengenalan Pola:</p><p>Pengenalan pola adalah proses mengenali atau mengidentifikasi pola, kesamaan, atau struktur tersembunyi dalam data atau informasi. Hal ini melibatkan penggunaan metode atau algoritma untuk mengekstrak pola dan memahami hubungan yang tersembunyi dalam data.</p><p></p><p>Contoh:</p><p>Dalam pengenalan wajah, algoritma pengenalan pola digunakan untuk mengenali wajah seseorang berdasarkan pola dan fitur unik yang terdapat dalam wajah tersebut. Algoritma tersebut menganalisis karakteristik seperti bentuk mata, hidung, dan mulut untuk mengenali dan membedakan satu wajah dari yang lain.</p><p></p><p>4. Algoritma:</p><p>Algoritma adalah serangkaian langkah atau instruksi terstruktur yang digunakan untuk menyelesaikan masalah atau mencapai tujuan tertentu. Algoritma memberikan panduan yang jelas tentang bagaimana melakukan tugas atau proses tertentu dengan langkah-langkah yang terorganisir.</p><p></p><p>Contoh:</p><p>Salah satu contoh sederhana dari algoritma adalah algoritma pengurutan. Algoritma pengurutan, seperti algoritma pengurutan gelembung atau pengurutan cepat, memberikan langkah-langkah terperinci tentang bagaimana mengurutkan daftar angka dari kecil ke besar. Dengan mengikuti langkah-langkah dalam algoritma tersebut, kita dapat mengurutkan angka dengan benar.</p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="menarik-kesimpulan-dari-pola-yang-ditemukan-adalah-keterampilan-dalam-a-dekimposisib-pengenalan-polac-berpikir-algoritmad-generalisasi-dan-berpikir-pola%e2%80%8b">
+                            22. menarik kesimpulan dari pola yang ditemukan adalah keterampilan  dalam..a.dekimposisib.pengenalan polac.berpikir algoritmad.generalisasi dan berpikir  pola​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>D. generalisasi dan berpikir pola</p><p>jadikan jawaban tercerdas y</p><p>dan follow </p><p>maaf klau salah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="dalam-berpikir-komputasional-dibutuhkan-beberapa-teknik-diantaranya-adalah-kecuali-a-dekomposisib-pengenalan-polac-desain-algoritmad-aljabar-dan-algoritma%e2%80%8b">
+                            23. dalam berpikir komputasional dibutuhkan beberapa teknik diantaranya adalah..., kecuali... *A.dekomposisiB.pengenalan polaC.desain algoritmaD.aljabar dan algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>D. Aljabar dan algoritma</p><p><strong>Penjelasan:</strong></p><p>Mohon Maaf kalau ada kesalah</p><p>Semoga Bermanfaat Amiin YRA</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-kondisi-berhenti-apa-saja-yang-boleh-ditetapkan-tehnik-perceptron">
+                            24. Jelaskan kondisi berhenti apa saja yang boleh ditetapkan tehnik perceptron</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>kondisi berhenti ,tqng berhenti yqng boleh di tetap kan teknik perceptron</p><br />
+                                            <h2 class="ez-toc-section" id="contoh-algoritma-sequensial-algoritma-perulangan-dan-algoritma-percabangan-dalam-kehidupan-sehari-hari%e2%80%8b">
+                            25. contoh algoritma sequensial, algoritma perulangan dan algoritma percabangan dalam kehidupan sehari hari​</h2><br />
+                        <p>mengisi battery laptop / komputer</p><br />
+                                            <h2 class="ez-toc-section" id="perhatikan-algoritma-berikut-algoritma-menuliskan-angkadeklarasiangka-integeralgoritmaangka-s-%e2%80%9819%e2%80%99writeangkaend-algoritma-di-atas-memiliki-nama-variable-yaitu-select">
+                            26. Perhatikan algoritma berikut :            Algoritma menuliskan angkaDeklarasiAngka : integerAlgoritmaAngka ß ‘19’Write(angka)End.Algoritma di atas memiliki nama variable yaitu :Select one:a. Integerb. Bilanganc. 20d. 19e. Angka​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>e. Angka.</p><p><strong>Penjelasan:</strong></p><p>Nama variablenya Angka dengan tipe data Integer.</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-digunakan-untuk-menampilkan-angka-yang-lebih-besar">
+                            27. Algoritma yang digunakan untuk menampilkan angka yang lebih besar</h2><br />
+                        <p>   Algoritma brute force yang dimana memiliki fungsi salah satunya sebagai media menampilkan angka yang lebih besar/bold.</p><p></p><p>Angka lebih besar dalam programan membantu seorang programmer dalam editing/creating suatu data</p><br />
+                                            <h2 class="ez-toc-section" id="apabila-yang-dimasukkan-angka-5-maka-y-angka10100-buatlah-algoritma-pseudocode-dan-algoritma-flowchart-nya%e2%80%8b">
+                            28. apabila yang dimasukkan angka &gt; 5, maka Y= angka*10+100 buatlah algoritma pseudocode dan algoritma flowchart nya​</h2><br />
+                        <p>Jawaban:</p><p>pseudocode:</p><p>angka, i : integer</p><p>begin</p><p>     Read angka</p><p>     if angka &gt; 5 then</p><p>          y = angka*10+100</p><p>          write y</p><p>end</p><p></p><p>Penjelasan:</p><p>diatas pesudocode.</p><p>flowchart silahkan lihat di gambar</p><br />
+                                            <h2 class="ez-toc-section" id="berpikir-komputasi-merupakan-metode-dan-proses-berpikir-untuk-penyelesaian-persoalan-dengan-urutan-yang-benar-sebagai-berikut-yaitu-a-dekomposisi-pengenalan-pola-abstraksi-desain-algoritma-b-penge">
+                            29. berpikir komputasi merupakan metode dan proses berpikir untuk penyelesaian persoalan dengan urutan yang benar sebagai berikut yaitu..a.dekomposisi, pengenalan pola, abstraksi, desain algoritma b.pengenalan pola, abstraksi, desain algoritma, dekomposisic. abstraksi, desain algoritma, dekomposisi, pengenalan polad. desain algoritma, dekomposisi, pengenalan pola, abstraksi mohon bantuannya terimakasih ​</h2><br />
+                        <p>Berpikir komputasi merupakan metode dan proses berpikir untuk penyelesaian persoalan dengan urutan yang benar sebagai berikut yaitu: <strong>A. dekomposisi, pengenalan pola, abstraksi dan desain algoritma</strong>. Dengan mengikuti urutan tersebut, maka kita dapat memecahkan masalah dengan lebih baik secara computational thinking atau berpikir komputasi.
+</p><p>
+</p>Pembahasan
+<p><strong>Dekomposisi/Decomposition
+</strong></p><p>Dekomposisi atau penguraian, merupakan urutan awal dimana kita akan melakukan break down suatu masalah yang kompleks maupun sangat luas menjadi bagian-bagian yang lebih kecil dan spesifik. Urutan ini penting agar fokus masalah yang sudah terurai menjadi lebih kecil dapat diselesaikan bertahap dan runtut. Contoh sehari-hari, ketika kita hari Minggu dan kita ingin membersihkan kamar yang berantakan karena tidak dirapikan selama beberapa hari, maka kita akan menentukan dulu mana hal yang dibereskan terlebih dahulu seperti, merapikan sprei dan bedcover, menata peralatan belajar di meja, mengambil sisa makanan dan minuman, dan sebagainya. Dengan mengurai dulu apa saja yang lebih spesifik untuk dilakukan, maka proses bersih-bersih kamar akan lebih maksimal.
+</p><p><strong>Pengenalan Pola/Pattern Recognition
+</strong></p><p>Pengenalan pola merupakan urutan dimana kita dapat mengenali suatu pola yang dihasilkan dari kesamaan berbagai hal terhadap suatu objek atau kegiatan. Sehingga, semakin banyak kesamaan pola dalam suatu masalah maka, akan semakin mudah untuk diselesaikan. Contohnya, jika kita sering memasak nasi, maka dengan sendirinya kita akan mudah mengingat bagaimana pola urutan memasak nasi, takaran yang pas dan sebagainya sehingga akan lebih cepat dalam prosesnya.
+</p><p><strong>Abstraksi/Abstraction
+</strong></p><p>Abstraksi, urutan langkah ini lebih kepada bagaimana kita dapat lebih fokus ke informasi yang penting  pada suatu masalah yang kita lihat secara lebih luas. Selain itu, kita juga perlu mengabaikan hal-hal yang kurang relevan agar lebih fokus kepada hal penting yang dituju. Contohnya, jika kita membuka aplikasi peta pada smartphone maka kita dapat melihat bahwa tidak semua rumah penduduk akan diberi identitas ataupun pin point, melainkan, hanya tempat yang dianggap penting dan terdaftar yang akan ditampilkan dan mengabaikan yang tidak penting tadi sehingga kita lebih mudah untuk mencari informasi pada aplikasi peta tersebut.  </p><p><strong>Desain Algoritma/Algorithm Design
+</strong></p><p>Desain algoritma merupakan urutan yang terakhir dalam berpikir komputasi dimana kita akan menyusun algoritma yang akan digunakan untuk menyelesaikan masalah, dengan kata lain, langkah-langkah spesifik dan jelas yang digunakan untuk menyelesaikan masalah. Dalam desain algoritma ini, kita harus menghindari adanya ambiguitas akan langkah yang digunakan pasti sehingga masalah dapat terselesaikan.
+</p><p></p>Pelajari lebih lanjutPengertian algoritma | https://brainly.co.id/tugas/28266102Contoh computational thinking | https://brainly.co.id/tugas/30443643Pengertian computational thinking | https://brainly.co.id/tugas/25921089<p></p>Detil jawaban<p>Mata pelajaran: TI
+</p><p>
+Materi: Bab 6 - Mengenal Pemrograman Komputer
+</p><p>
+Kelas: 10 SMA
+</p><p>
+Kode kategorisasi: 10.11.5</p><p><strong>
+#AyoBelajar</strong></p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-struktur-dan-algoritma-mencetak-angka-genap-yang-ada-diantara-angka-0-50">
+                            30. Buatlah struktur dan algoritma mencetak angka genap, yang ada diantara angka 0-50</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>angka prima</p><p></p><p></p><p>maaf kalo salah </p><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-algoritmaapa-contoh-algoritma-yang-terjadi-dirumah%e2%80%8b">
+                            31. Apa itu algoritma?apa contoh algoritma yang terjadi dirumah?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Algoritma adalah langkah-Iangkah demi langkah yang harus ditempuh untuk melakukan sebuah perhitungan. Dalam konteks yang lebih luas atau umum, algoritma juga dapat diartikan sebagai langkah demi langkah untuk melakukan </p><p>sesuatu. </p><p></p><p>2. Contoh :</p><p>a) Masukan Kode PIN</p><p>b) Ponsel Siap Digunakan</p><p>c ) Pastikan Ponsel Telah Memiliki Daya Yang Cukup</p><p></p><p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p><strong>Semoga </strong><strong>Membantu</strong><strong> </strong></p><br />
+                                            <h2 class="ez-toc-section" id="1-tuliskan-3-contoh-algoritma-urut2-tuliskan-3-contoh-algoritma-perulangan3-tuliskan-3-contoh-algoritma-percabangan">
+                            32. 1. Tuliskan 3 contoh algoritma Urut
+2. Tuliskan 3 contoh algoritma Perulangan
+3. Tuliskan 3 contoh algoritma Percabangan</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>merupakan proses atau langkah-langkah logis yang tersusun secara sistematis untuk memecahkan suatu masalah. Dengan kata lain algoritma digunakan untuk mencapai suatu tujuan tertentu. Setidaknya ada 3 bentuk algoritma yang bisa dibuat yaitu, flowchart, pseudocode dan bahasa natural, Kali secara khusus akan saya bahas 8 contoh algoritma dalam kehidupan sehari-hari dengan menggunakan bahasa natural.</p><p></p><p>Dalam kehidupan sehari-hari kita sebetulnya kita melakukan banyak proses yang bisa dikatakan suatu algoritma, misalnya bagaimana rute untuk pergi ke kantor? langkah-langkah tersebut bisa dituangkan kedalam bentuk algoritma agar kita dapat melihat jelas setiap proses yang ada.</p><p></p><p></p><p>Contoh Algoritma dalam Kehidupan Sehari-hari</p><p>Setiap orang mungkin akan berbeda dalam menuangkan proses algoritma misalnya dalam kasus ini si A bisa membuat algoritma untuk pergi ke kantor adalah menggunakan mobil, melewati jalan A, pada persimpangan belok kanan, lurus hingga tiba di kantor. si B bisa jadi akan membuat langkah-langkah yang berbeda walaupun dengan posisi awal dan tujuan yang sama. Namun yang terpenting disini adalah bagaimana suatu algoritma yang dibuat bisa lebih cepat dan efisien tentu akan lebih baik.</p><p></p><p>Donalt E knuth dalam bukunya yang berjudul The Art Of Programming menyebutkan beberapa kriteria penting yang perlu diperhatikan saat menyusun suatu algorima:</p><p></p><p>Input : Suatu algoritma bisa menerima masukan dari pengguna atau bahkan tidak sama sekali.</p><p>Ouput : Algoritma yang baik harus mempunyai minimal sebuah output.</p><p>Definiteness : Algoritma memiliki instruksi-instruksi yang jelas (pasti) dan tidak ambigu</p><p>Finiteness : Suatu algoritma harus memiliki titik berhenti (stoping role)</p><p>Effectiveness : Algoritma perlu berjalan dengan efektif dengan mempertimbangkan berbagai aspek.</p><p>Contoh Algoritma dalam Kehidupan Sehari-hari</p><p>Berikut ini beberapa contoh algoritma dalam kehidupan keseharian yang sering dilakukan:</p><p></p><p>Instal aplikasi android melalui playstore</p><p>Masuk ke aplikasi playstore</p><p>Cari aplikasi pada mesin pencari dibagian header (atas)</p><p>Sistem menampilkan daftar aplikasi sesuai kata kunci yang dicari</p><p>Pilih aplikasi yang dikehendaki</p><p>Klik tombol download</p><p>Proses download berjalan</p><p>Jika gagal maka akan muncul pesan download kembali, jika sukses muncul tombol instal</p><p>Klik tombol Instal</p><p>Tunggu hingga instalasi selesai</p><p>Berobat ke rumah sakit bagi peserta BPJS</p><p>Datang ke rumah sakit</p><p>Lakukan pendaftaran</p><p>Mendapat nomor antrian</p><p>Melakukan pemeriksaan dasar oleh perawat</p><p>Menunggu pemeriksaan selanjutnya oleh dokter</p><p>Pasien diperiksa oleh dokter</p><p>Dokter memberikan resep</p><p>Pasien mendapatkan obat sesuai resep</p><p>Menonton film di bioskop</p><p>Pergi ke loket</p><p>Pilih film yang sedang tayang</p><p>Bayar tiket</p><p>Mendapatkan tiket</p><p>Tunggu hingga tepat jam film ditayangkan</p><p>Masuk ke ruang bisokop sesuai dengan nomor ruang yang tertera pada tiket</p><p>Cari dan duduk pada kursi sesuai tiket</p><p>Nonton film yang tayang dilayar</p><p>Mengambil Uang Tunai di ATM</p><p>Memasukan kartu dimesin ATM</p><p>Pilih bahasa</p><p>Masukan password</p><p>Pilih menu Tarik tunai</p><p>Pilih jenis rekening</p><p>Masukan jumlah uang yang ingin diambil</p><p>Jika saldo mencukupi, mesin ATM akan mengeluarkan uang sesuai dengan jumlahnya, Jika tidak maka kembali ke nomor 6</p><p>Ambil uangnya</p><p>Apakah ada transaksi lainnya, jika ya kembali ke nomor 3, jika tidak mesin akan mengeluarkan kartu ATM</p><p>Ambil kartu ATM</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-pengertian-pola-dalam-algoritma%e2%80%8b">
+                            33. tuliskan pengertian pola dalam algoritma​</h2><br />
+                        jawaban:<p>pola  algoritma adalah suatu urutan dri beberapa langkah yang logis guna menuntaskan masalah</p><p>semoga membantu, jadikaan jawaban tercerdas ya</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-contoh-algoritma-sekuensial-algoritma-perulangan-dan-algoritma-percabangan-dalam-kehidupan-sehari-hari%e2%80%8b">
+                            34. sebutkan contoh algoritma sekuensial, algoritma perulangan, dan algoritma percabangan dalam kehidupan sehari hari!​</h2><br />
+                        <p>Jawaban:</p><p></p><p>Penjelasan:</p><p>Contoh penerapan algoritma sekuensial dalam kehidupan sehari-hari misalnya seperti memasak air. Dalam memasak air algoritmanya adalah yang pertama mengambil wadah atau panci untuk menampung air terlebih dahulu. Yang kedua mengisi panci atau wadah tersebut dengan air. Yang ketiga meletakkanya diatas kompor dan menutup wadah atau panci tersebut. Terakhir kompor dinyalakan dan tunggu hingga air mendidih.</p><p>Contoh penerapan algoritma perulangan dalam kehidupan sehari-hari misalnya seperti menyetrika pakaian. Pada menyeterika pakaian algoritmanya adalah yang pertama menyiapkan alas untuk pakaian yang akan di setrika. Yang kedua menyiapkan setrika dan menghubungkan kabelnya ke stop kontak, selanjutnya setrika dinyalakan dan tunggu setrika sampai panas. Ketika setrika sudah panas lakukan penyetrikaan pada tiap sisi pakaian dan jangan lupa berikan pengharum. Jika pakaian tersebut sudah disetrika lipat dan lakukan perulangan langkah yang tadi pada pakaian yang lain. Jika sudah matikan setrika dan lepaskan kabel dari stop kontak. Pada langkah “…lakukan perulangan langkah yang tadi pada pakaian yang lain” merupakan algoritma perulangan.</p><p></p><p>Contoh penerapan algoritma bersyarat dalam kehidupan sehari-hari misalnya seperti mengisi baterai laptop. Ketika mengisi baterai algoritmanya adalah yang pertama hubungkan adaptor atau kabel charger dengan stop kontok. Kedua hubungkan adaptor atau kabel charger dengan laptop. Isi baterai hingga penuh. Jika baterai sudah penuh cabut atau lepaskan adaptor atau kabel charger dari stop kontak.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="buat-algoritma-untuk-menampilkan-deret-angka-berikut-025102637">
+                            35. Buat algoritma untuk menampilkan deret angka berikut 0,2,5,10,26,37.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Algoritma Deret Angka 0 2 5 10 26 37</p><p></p><p>i, j : integer;</p><p>i = 0</p><p>while i kurang dari atau sama dengan 6 do</p><p>if i tidak sama dengan 4 then</p><p>if i = 0 then</p><p>j = i;</p><p>else</p><p>j = i*i+1;</p><p>end if</p><p>cetak (j);</p><p>end if</p><p>i = i+1;</p><br />
+                                            <h2 class="ez-toc-section" id="2-perhatikan-contoh-algoritma-dibawah-inialgoritma-bilanganpada-bagian-angka-integermerupakan-bagiana-judul-algoritmab-deklarasi-algoritmabadan-algoritmad-reader-algoritmabozer-algoritma%e2%80%8b">
+                            36. 2.Perhatikan contoh algoritma dibawah iniAlgoritma BilanganPada bagian angka integer"merupakan bagianA judul algoritmaB deklarasi algoritmabadan algoritmaD. Reader algoritmaBozer algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A judul algoritma </p><p><strong>Penjelasan:</strong></p><p>karna dahlah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="mhd-nur-alfatha-dashboard-profile-grades-messages-preferences-log-outsmkn-2-binjai-pemrograman-dasar-x-tkj-3dashboardmy-coursespemrograman-dasar-x-tkj-3menerapkan-alur-logika-pemrograman-ko">
+                            37.   MHD. NUR ALFATHA . Dashboard Profile Grades Messages Preferences Log outSMKN 2 BINJAI / PEMROGRAMAN DASAR / X TKJ 3DashboardMy coursesPEMROGRAMAN DASAR / X TKJ 3Menerapkan Alur Logika Pemrograman KomputerQUIZ IQuestion 1Not yet answeredMarked out of 50.00Not flaggedFlag questionQuestion textPerhatikan contoh algoritma berikut inialgoritma menuliskan angkadeklarasi            angka: integeralgoritma            angka ← ‘16’            write (angka)            endPada contoh algoritma diatas apabila variabel diberi nilai 16, maka output yang dihasilkan juga bernilai 16. tapi apabila diberikan nilai “angka” , maka output dari algoritma diatas akan bernilai... Select one:a. tidak dapat dieksekusib. integerc. 16d. angkae. 0​</h2><br />
+                        <p><strong>Jawaban:</strong></p>B. integer<p><strong>Penjelasan:</strong></p><p>maaf klau salah</p><br />
+                                            <h2 class="ez-toc-section" id="1-jelaskan-apa-yang-dimaksud-dengan-berpikir-komputasional-dan-berikan-contohnya-sertakan-dengan-pengelompokan-dikomposisi-pengenalan-pola-abstraksi-algoritma%e2%80%8b">
+                            38. 1. Jelaskan apa yang dimaksud dengan berpikir komputasional dan berikan contohnya sertakan dengan pengelompokan (Dikomposisi, Pengenalan Pola, Abstraksi, Algoritma?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>berpikir komputasional adalah cara berpikir untuk menyelesaikan persoalan, yang cara penyelesaiannya, jika dikembangkan, dapat dilakukan oleh komputer. Dengan kata lain, kita akan berpikir mengenai bagaimana menyelesaikan berbagai persoalan dengan cara yang efektif dan efisien. Dengan demikian, kita akan menemukan solusi yang efisien, efektif, dan optimal sehingga solusinya bisa dijalankan oleh manusia maupun mesin (komputer).</p><p></p><p>Persoalan apa yang akan diselesaikan? Sebetulnya, hampir semua persoalan sehari-hari mengandung konsep komputasi sehingga bisa diselesaikan dengan bantuan mesin komputer. Sebagai contoh, robot yang bertugas melayani penjualan di restoran atau mengantar makanan dan obat untuk pasien di rumah sakit yang sudah dipakai di beberapa negara maju, sistem komputer untuk memantau perkebunan sawit yang siap panen dan sebagainya</p><p></p><p>Itulah mengapa berpikir komputasional merupakan salah satu kemampuan penting yang harus dimiliki. Saat kita menggeluti berpikir komputasional, kita dapat mengaplikasikannya pada sistem konvensional atau kehidupan sehari-hari tanpa teknologi, maupun mengadopsinya pada solusi digital.</p><p></p><p>Menurut Tim Kemdikbud (2021, hlm. 25) terdapat 4 pondasi berpikir komputasional yang dikenal dalam ilmu Informatika, yaitu Abstraksi, Algoritma, Dekomposisi, dan Pola, yang sangat mendasar dan secara garis besar dijelaskan sebagai berikut.</p><p></p><p>1.Dekomposisi,</p><p>yakni dekomposisi dan formulasi persoalan sedemikian rupa sehingga dapat diselesaikan dengan cepat dan efisien serta optimal. Persoalan yang sulit apalagi besar akan menjadi mudah jika diselesaikan sebagian-sebagian secara sistematis.</p><p>2.Pengenalan pola persoalan,</p><p>dilakukan sebagai generalisasi terhadap pola persoalan serta mentransfer proses penyelesaian persoalan ke persoalan lain yang sejenis, sehingga pola dari persoalan diketahui.</p><p>3.Abstraksi,</p><p>yaitu menyarikan bagian penting dari suatu permasalahan dan mengabaikan yang tidak penting sehingga memudahkan fokus kepada solusi.</p><p>4.Algoritma,</p><p>yaitu menuliskan otomasi solusi melalui berpikir algoritmik (langkah-langkah yang terurut) untuk mencapai suatu tujuan (solusi). Jika langkah yang runtut ini diberikan ke komputer dalam bahasa yang dipahami oleh komputer, kita dapat “memerintah” komputer mengerjakan langkah tersebut</p><p><strong>Penjelasan:</strong></p><p>moga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="sesudah-angka-55-yg-keluar-dari-hitungan-algoritma-adalah-berapa%e2%80%8b">
+                            39. sesudah angka 55 yg keluar dari hitungan algoritma adalah berapa?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>56 (lima enam) MAAF KALO SALAH</p><p><strong>Jawaban:</strong></p><p>54 (lima empat) maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="3-tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kemudian-menampilkan-yang-paling-besar-jawab-4-tulislah-sebuah-algoritma-untuk-membaca-dua-angka-kem">
+                            40. 3.	Tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling besar! Jawab : .......................................... 4.	Tulislah sebuah algoritma untuk membaca dua angka kemudian menampilkan yang paling kecil! Jawab : .......................................... 5.	Tulislah sebuah algoritma untuk membaca tiga angka kemudian menampilkan yang paling besar! Jawab : .......................................... (bantu dong kak plisss besok dikumpulkan)​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>3:bumi</p><p>4.algoritma</p><p>5.algotrima</p><p><strong>Penjelasan:</strong></p><p>karena aku gak tau</p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/pkB-DLo1D-c?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/jurnal-diberi-contoh-gambar.html">Jurnal Diberi Contoh Gambar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-review-jurnal-baasa-inggris.html">Contoh Review Jurnal Baasa Inggris</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-kasus-hukum-dalam-dunia-pendidikan-di-indonesia.html">Contoh Jurnal Kasus Hukum Dalam Dunia Pendidikan Di Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-dari-judul-skripsi-pendidikan-matematika-materi-trigonometri.html">Contoh Dari Judul Skripsi Pendidikan Matematika Materi Trigonometri</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-srs-judul-berbasis-web-perpustakaan.html">Contoh Srs Judul Berbasis Web Perpustakaan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/review-paper-contoh.html">Review Paper Contoh</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-pengambilan-keputusan-dengan-menggunakan-teori-keputusan-salusu.html">Contoh Jurnal Pengambilan Keputusan Dengan Menggunakan Teori Keputusan Salusu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-skripsi-tentang-perancangan-buku-ilustrasi.html">Contoh Jurnal Skripsi Tentang Perancangan Buku Ilustrasi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-e-jurnal-manajemen-sumber-daya-manusia.html">Contoh E Jurnal Manajemen Sumber Daya Manusia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-sewa-menggunakan-accrual-basis.html">Contoh Jurnal Sewa Menggunakan Accrual Basis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skripsi-tentang-self-awareness.html">Contoh Judul Skripsi Tentang Self Awareness</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-framework-cobit-indonesia.html">Contoh Jurnal Framework Cobit Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-tentang-dormansi.html">Contoh Jurnal Tentang Dormansi</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-umum-pembayaran-gaji-pph-21.html">Contoh Jurnal Umum Pembayaran Gaji Pph 21</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-paper-berdasar-jurnal.html">Contoh Paper Berdasar Jurnal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-tik.html">Contoh Jurnal Tik</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-analisis-pico-jurnal.html">Contoh Analisis Pico Jurnal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-diagram-alir-review-jurnal.html">Contoh Diagram Alir Review Jurnal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-karya-ilmiah-bab-1.html">Contoh Karya Ilmiah Bab 1</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-karya-ilmiah-tugas-akhir-manajemen.html">Contoh Karya Ilmiah Tugas Akhir Manajemen</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://unduhjurnal.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://unduhjurnal.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>

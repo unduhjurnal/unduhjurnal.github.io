@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Jurnal Pemograman Java Hangman - BELAJAR</title>
+    <meta name="description" content="Contoh Jurnal Pemograman Java Hangman, , , , , , , 0, , , , , , 0, contoh-jurnal-pemograman-java-hangman, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Jurnal Pemograman Java Hangman - BELAJAR" />
+    <meta property="og:description" content="Contoh Jurnal Pemograman Java Hangman, , , , , , , 0, , , , , , 0, contoh-jurnal-pemograman-java-hangman, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Jurnal Pemograman Java Hangman - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Jurnal Pemograman Java Hangman, , , , , , , 0, , , , , , 0, contoh-jurnal-pemograman-java-hangman, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://unduhjurnal.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://unduhjurnal.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://unduhjurnal.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://unduhjurnal.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://unduhjurnal.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://unduhjurnal.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://unduhjurnal.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://unduhjurnal.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Jurnal Pemograman Java Hangman</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">izzatiaida17</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Jurnal+Pemograman+Java+Hangman" alt="Contoh Jurnal Pemograman Java Hangman">
+                    </div>
+                    <p></p>
+                    <p>bagaimana struktur pemograman java</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-struktur-pemograman-java">1.
+                                            bagaimana struktur pemograman java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-di-maksud-pemograman-java">2.
+                                            Apa yang di maksud pemograman java? </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-pemograman-java-collection-merupakan-sebuah">3.
+                                            Dalam pemograman Java, collection merupakan sebuah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tujuan-paus-sesekali-muncul-ke-permukaan-laut-adalah-untuk-hangman-ngasal">4.
+                                            Tujuan paus sesekali muncul ke permukaan laut adalah untuk hangman ngasal!!!!!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskannya-macam-macam-bahasa-pemograman-beserta-contoh">5.
+                                            jelaskannya macam-macam Bahasa pemograman Beserta contoh </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#saya-ingin-sekali-belajar-pemograman-javatolong-bantu-donk">6.
+                                            SAYA INGIN SEKALI BELAJAR PEMOGRAMAN JAVA,TOLONG BANTU DONK !</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#konsep-pre-defined-class-dengan-pemograman-java">7.
+                                            Konsep pre-defined class dengan pemograman java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#salah-satu-jenis-aplikasi-berbasis-pemograman-java-yang-dapat-digunakan-untuk-membuat-anime-game-adalah%e2%80%8b">8.
+                                            salah satu jenis aplikasi berbasis pemograman java yang dapat digunakan untuk membuat anime game adalah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gambarkanilustrasikan-yang-disertai-penjelasan-oleh-anda-sebuah-binatang-supaya-dapat-diterapkan-ke-dalam-bahasa-pemograman-java-berupa-object-method-event-dan-property">9.
+                                            Gambarkan/Ilustrasikan yang disertai penjelasan oleh Anda sebuah binatang, supaya dapat diterapkan ke dalam bahasa pemograman java berupa object, Method, Event, dan property.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-apa-perbedaan-antara-baris-kode-perintah-write-pada-pascal-dengan-system-out-println-pada-pemograman-java2-apa-persamaan-antara-baris-kode-perintah-write-pada-pascal-dengan-system-out-println-pad">10.
+                                            1. apa perbedaan antara baris kode perintah write pada Pascal dengan System.out.println pada pemograman Java?2. apa persamaan antara baris kode perintah write pada Pascal dengan System.out.println pada pemograman Java?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-jenis-jenis-variabel-yang-anda-ketahui-dalam-pemogram-java">11.
+                                            Jelaskan jenis jenis variabel yang anda ketahui dalam pemogram java ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagaimana-struktur-pemograman-java">12.
+                                            bagaimana struktur pemograman java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yg-di-maksud-dengan-bahasa-pemogramapa-kegunaannyaberikan-contoh-bahasa-pemogram-yg-kamu-ketahui">13.
+                                            APA YG DI MAKSUD DENGAN BAHASA PEMOGRAM?APA KEGUNAANNYA?BERIKAN CONTOH BAHASA PEMOGRAM YG KAMU KETAHUI</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bilangan-bulat-dalam-ilmu-matematika-di-dalam-pemograman-java-dinamakan-tipe-data">14.
+                                            bilangan bulat dalam ilmu matematika, di dalam pemograman java dinamakan tipe data</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kakak-bantu-hangman-ngarang%e2%80%8b">15.
+                                            Kakak Bantu hangman ngarang​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-fungsi-laringtolong-hangman-copy-dari-google-trims">16.
+                                            Apa fungsi laring?
+Tolong hangman copy dari google :) Trims</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-5-contoh-bahasa-pemograman">17.
+                                            sebutkan 5 contoh bahasa pemograman?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pemograman-java-dengan-scanner-mohon-dibantu%e2%80%8b">18.
+                                            pemograman java dengan scanner mohon dibantu​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-3-contoh-variabel-dalam-pemograman">19.
+                                            Berikan 3 contoh variabel dalam pemograman  </a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#%e2%80%a2-seorang-programmer-professional-biasanya-menggunakan-bahasa-pemogramandalam-bentuk-tulisan-yang-disebut-juga-bahasa-pemograman-%e2%80%a2-bahasa-pemograman-yang-ditampilkan-dalam-bentuk-e">20.
+                                            • Seorang programmer professional biasanya menggunakan bahasa pemogramandalam bentuk tulisan yang disebut juga bahasa pemograman ....• Bahasa pemograman yang ditampilkan dalam bentuk elemen grafis disebut ....• Contoh bahasa pemograman visual yang dapat digunakan siswa untuk belajarpemograman adalah ....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#untuk-menguji-dua-buah-nilai-data-sebaiknya-menggunakan-operasi-relasional-apa-dalam-pemograman-java-jelaskan%e2%80%8b">21.
+                                            untuk menguji dua buah nilai data sebaiknya menggunakan operasi relasional apa dalam pemograman java? jelaskan!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-pemograman-struktural-dan-contoh-bahasa-pemrogramantuliskan-pradikma-pemograman-struktural%e2%80%8b">22.
+                                            tuliskan pemograman struktural dan contoh bahasa pemrograman/tuliskan pradikma pemograman struktural​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikan-contoh-bahasa-pemograman">23.
+                                            berikan contoh bahasa pemograman</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pemograman-contoh-fungsi-prosedur">24.
+                                            pemograman contoh fungsi prosedur</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#hal-yang-di-larang-ketika-menuliskan-syntax-bahasa-pemograman-java-saat-membangun-animasi-menggunakan-greenfoot-adalah">25.
+                                            Hal yang di larang ketika menuliskan syntax bahasa pemograman java saat membangun animasi menggunakan Greenfoot adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#konsep-pre-defined-class-dengan-pemograman-java">26.
+                                            konsep Pre-defined class dengan pemograman java</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-simple-coding-pemograman%e2%80%8b">27.
+                                            contoh simple coding pemograman​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ayoo-yang-jago-dalam-pemograman-bahasa-javaada-yang-bisa-buat-tampilan-seperti-ini-ga-dengan-java-tolong-kasih-scriptnya-lengkap">28.
+                                            Ayoo yang jago dalam pemograman bahasa javaAda yang bisa buat tampilan seperti ini ga ? dengan java.Tolong kasih scriptnya lengkap..</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-kode-program-handling-error-yang-akan-mencoba-mengeksekusi-baris-statement-walaupun-memiliki-kemungkinan-error-dlm-pemograman-java-adalah%e2%80%8b">29.
+                                            Bagian kode program handling error yang akan mencoba mengeksekusi baris statement walaupun memiliki kemungkinan error dlm pemograman java adalah??​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perbedaan-dan-keunggulan-fitur-selection-pada-bahasa-pemograman-java">30.
+                                            Jelaskan perbedaan dan keunggulan fitur selection pada bahasa pemograman java!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-contoh-dari-variabel-pemograman-dasar">31.
+                                            sebutkan contoh dari "variabel", pemograman dasar??</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-itu-logika-pemogramancontoh-logika">32.
+                                            Apa Itu Logika Pemograman?
+Contoh Logika?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-program-dari-pemograman-c">33.
+                                            contoh program dari pemograman c ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#kerjakan-soal-di-bawah-ini-dengan-jelas-dan-benar-1-bagaimanakah-cara-penulisan-string-dalam-pemograman-java-jelaskan-%e2%80%8b">34.
+                                            Kerjakan soal di bawah ini dengan jelas dan benar !1. Bagaimanakah cara penulisan string dalam pemograman Java? Jelaskan !​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-anda-ketahui-tentang-bahasa-pemograman-java-jelaskan">35.
+                                            apa yang anda ketahui tentang bahasa pemograman java?, jelaskan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#yang-termasuk-kedalam-bahasa-pemograman-adalah-a-javab-ccc-pascald-semua-benar">36.
+                                            Yang termasuk kedalam bahasa pemograman adalah...
+A. Java
+B. C/C++
+C. Pascal
+D. Semua Benar</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bagian-kode-program-handling-error-yang-akan-mencoba-mengeksekusi-baris-statement-walaupun-memiliki-kemungkinan-error-dlm-pemograman-java-adalah%e2%80%8b">37.
+                                            Bagian kode program handling error yang akan mencoba mengeksekusi baris statement walaupun memiliki kemungkinan error dlm pemograman java adalah??​.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#yang-bukan-termasuk-perangkat-lunak-pemograman-adalahpilih-salah-satua-javab-network-utilityc-cssd-html">38.
+                                            Yang bukan termasuk perangkat lunak pemograman adalah
+Pilih salah satu:
+a. Java
+b. Network utility
+c. Css
+d. Html</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikut-ini-yang-tidak-termasuk-bahasa-pemograman-adalah-a-javab-jdkc-jbuilderd-borland%e2%80%8b">39.
+                                            Berikut ini yang tidak termasuk bahasa pemograman adalah...a) Javab) JDKc) Jbuilderd) Borland​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#teknik-yang-digunakan-untuk-mengulang-suatu-blok-kode-dalam-bahasa-pemograman-java-adalah">40.
+                                            Teknik yang digunakan untuk mengulang* suatu blok kode dalam bahasa pemograman java adalah?</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="bagaimana-struktur-pemograman-java">
+                            1. bagaimana struktur pemograman java</h2><br />
+                        <p>menggunakan metode OOP</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-di-maksud-pemograman-java">
+                            2. Apa yang di maksud pemograman java? </h2><br />
+                        pemrograman Java merupakan bentuk algoritma (susunan perintah2) dengan memakai bahasa program Java dalam ilmu komputer <br />
+                                            <h2 class="ez-toc-section" id="dalam-pemograman-java-collection-merupakan-sebuah">
+                            3. Dalam pemograman Java, collection merupakan sebuah</h2><br />
+                        <p>java.lang.Collection</p><p></p><p>merupakan suatu kumpulan grup yang terdiri dari elemen-elemen dan item.</p><p></p><p>sumber : https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html</p><br />
+                                            <h2 class="ez-toc-section" id="tujuan-paus-sesekali-muncul-ke-permukaan-laut-adalah-untuk-hangman-ngasal">
+                            4. Tujuan paus sesekali muncul ke permukaan laut adalah untuk hangman ngasal!!!!!</h2><br />
+                        mengeluarkan air dari dalan tubuhnya dan menghirup atau mengambil oksigen<br />
+                                            <h2 class="ez-toc-section" id="jelaskannya-macam-macam-bahasa-pemograman-beserta-contoh">
+                            5. jelaskannya macam-macam Bahasa pemograman Beserta contoh </h2><br />
+                        1. C<br />2. JAVA<br />3. PHYTON<br />4. RUBY<br />5. SQL (Structured Query Language)<br />6. ColdFusion<br />7. PHP<br />8. HTML<br />9. COBOL<br />10. Ms Visual Basic<br />11. Visual C++<br />12. C++<br />13. DELPHI<br />14. ASP<br />15. XML (Extensible Markup Language)<br />16. WML (Wireless Markup Language)<br />17. Perl<br />18. Cfm<br />19. Java script<br />20. CSS<br /><br />-Semoga membantu follow yah ❤<br />
+                                            <h2 class="ez-toc-section" id="saya-ingin-sekali-belajar-pemograman-javatolong-bantu-donk">
+                            6. SAYA INGIN SEKALI BELAJAR PEMOGRAMAN JAVA,TOLONG BANTU DONK !</h2><br />
+                        klo mau belajae java saya wajibkan bljr lewat software C++<strong>Caranya klik bantuan yang berada di file java tersebut, lalu masukkan kategori yang anda pelajari.</strong><br /><br /><br />Tolong tandai sebagai jawaban terbaik ya ?<br />
+                                            <h2 class="ez-toc-section" id="konsep-pre-defined-class-dengan-pemograman-java">
+                            7. Konsep pre-defined class dengan pemograman java</h2><br />
+                        <strong>[jawaban]<br /></strong><strong><br />Mata Pelajaran: Teknologi Informasi<br /></strong><strong>Kata kunci: Java, Pemrogaman<br /></strong><strong><br />• Jawaban pendek:<br /><br /></strong>Konsep pre-defined class dengan pemograman java<br /><br /><strong>Java class library (Java API) memiliki banyak sekali kelas (Java predefined classes) yang diletakkan di paket (package) untuk dapat dipergunakan kembali di program. Paket tersebut digunakan untuk mengelompokkan kelas-kelas yang mempunyai kemiripan fungsi (related class). Kelas-kelas Java yang akan digunakan di dalam program, terlebih dahulu harus diimpor beserta dengan nama paket di mana kelas tersebut berada, kecuali untuk kelas Java yang berada di paket java.lang seperti kelas JOptionPane yang berada di paket javax.swing dan kelas DecimalFormat yang berada di paket java.text. </strong><strong> </strong><br />
+                                            <h2 class="ez-toc-section" id="salah-satu-jenis-aplikasi-berbasis-pemograman-java-yang-dapat-digunakan-untuk-membuat-anime-game-adalah%e2%80%8b">
+                            8. salah satu jenis aplikasi berbasis pemograman java yang dapat digunakan untuk membuat anime game adalah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Ardor3D</p><p>Ardor3D merupakan game engine open source berbasis Java dan didukung dengan OpenGL. Dengan menggunakan game engine ini, pembaca akan lebih mudah membuat game 3D android.</p><p></p><p>2. Mesin Android GL (ANGLE)</p><p>anglelogo</p><p></p><p>ANGLE merupakan mesin game open source berbasis Java, dan penggunaannya lebih fokus dalam pengembangan game 2D. Dengan dukungan OpenGL ES dan tutorial seri yang didokumentasikan lengkap dapat mempercepat pembaca dalam mengembangkan game 2D android.</p><p></p><p>3. Box2D</p><p>Box2D dikembangkan dengan C ++ dan under source. Mesin game ini berbasis Java dan dapat membantu pembaca dalam membuat game yang berbasis fisik layaknya game Angry Birds. Dengan dukungan seri tutorial dan dokumentasi manual yang disediakan akan lebih mudah memahami API yang diberikan. Jika pembaca kesulitan, mereka juga menyediakan forum untuk membahas masalah pada game engine ini.</p><p></p><p>4. AndEngine</p><p>AndEngine merupakan mesin permainan open source berbasis Java. Juga didukung dengan OpenGL yang digunakan untuk membuat game 2D android. Mesin game ini telah banyak digunakan pada banyak game seperti Save The Earth, Xelorians, Man vs Mosquito dan masih banyak yang lainnya. Jika pemahaman memahami APInya, pembaca akan dibantu dengan blog dan forum yang tersedia.</p><p></p><p>5. Platform AllBinary</p><p>AllBinary Platform adalah game engine open source berbasis Java. Dan didukung OpenGL ES yang dapat digunakan untuk pengembangan game 3D android. Contoh game android yang menggunakan game engine ini adalah ZeptoRacer 3D.</p><p></p><p>6. Loon</p><p>Loon juga dikenal dengan LGame merupakan mesin game open source berbasis Java yang fokus digunakan untuk pengembangan game 2D android. Ada banyak contoh game yang bisa dibaca dan disusun.</p><p></p><p>7. JPCT-AE</p><p>Jika pembaca belum akrab dengan JPCT, pembaca harus mengetahuinya. JPCT-AE merupakan game engine open source berbasis Java yang digunakan pengembangan game 3D android dan juga mampu melakukan porting JPCT ke android. APInya juga mudah mempelajari, juga game engine ini mendukung OpenGL.</p><p></p><p>8. Cocos2D</p><p>cocos2d</p><p>Selain iPhone, Cocos2D juga mempunyai versi untuk Android. Mesin game open source ini berbasis Java dan bagus untuk pengembangan game 2D android. API yang digunakan juga sama dengan apa yang ada pada iPhone.</p><p></p><p>9. Kue kucing</p><p>catcake_motion</p><p>Catcake merupakan mesin game open source berbasis Java yang digunakan untuk pengembangan game 3D. Mudah digunakan, performa tinggi, juga didukung dengan fitur animasi, input deice handling, sound playing. Dan gamenya pun bisa lintas platform juga.</p><p></p><p>10. LibGDX</p><p>LibGDX  merupakan mesin game berbasis Java yang digunakan untuk pengembangan game java atau android berbasis OpenGL ES. Mesin game ini juga lintas platform, mesin game juga cocok untuk pengembangan game 2D maupun 3D android.</p><p></p><p>Mengembangkan game sulit jika menggunakan mesin game. Dengan 10 Game engine Java untuk android ini, semoga dapat mempercepat dan mempermudah pengembangan game android 2D maupun 3D. Semoga tambah menyenangkan yah bikin gamenya.</p><p><strong>Penjelasan:</strong></p><p>maaf kalau salah </p><br />
+                                            <h2 class="ez-toc-section" id="gambarkanilustrasikan-yang-disertai-penjelasan-oleh-anda-sebuah-binatang-supaya-dapat-diterapkan-ke-dalam-bahasa-pemograman-java-berupa-object-method-event-dan-property">
+                            9. Gambarkan/Ilustrasikan yang disertai penjelasan oleh Anda sebuah binatang, supaya dapat diterapkan ke dalam bahasa pemograman java berupa object, Method, Event, dan property.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>jawabannya ga tau </p><p></p><p><strong>Penjelasan:</strong></p><p>gak tau</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-apa-perbedaan-antara-baris-kode-perintah-write-pada-pascal-dengan-system-out-println-pada-pemograman-java2-apa-persamaan-antara-baris-kode-perintah-write-pada-pascal-dengan-system-out-println-pad">
+                            10. 1. apa perbedaan antara baris kode perintah write pada Pascal dengan System.out.println pada pemograman Java?2. apa persamaan antara baris kode perintah write pada Pascal dengan System.out.println pada pemograman Java?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>dengan Java. -&gt; System.out.println(“Hello World”)</p><p>dengan Pascal. -&gt; write(“Hello World”)</p><p><strong>Penjelasan:</strong></p><p>Dari syntax diatas dapat dilihat</p><p>1. perbedaannya :</p><p>- Cara penulisannya</p><p>- Hasil Output berbeda karena ada ln dijava sedangkan dipascal tidak ada. lebih lanjut</p><p>perintah write / System.out.print akan menampilkan tulisan pada layar dalam satu baris yang sama, sedangkan perintah Writeln / System.out.println akan menampilkan tulisan pada layar dan kemudian membuat baris baru, sehingga tulisan setelahnya akan berada pada baris berikutnya.</p><p></p><p>2. Persamaannya :</p><p>- Kata yg digunakan dalam output sama yaitu Hello World</p><p>- Metodenya sama untuk menampilkan kata dilayar</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-jenis-jenis-variabel-yang-anda-ketahui-dalam-pemogram-java">
+                            11. Jelaskan jenis jenis variabel yang anda ketahui dalam pemogram java ?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Untuk jenis sebenenarnya ada banyak tapi yang paling utama adalah </p>stringintbooleandouble<p>tapi untuk tipenya ada 3</p>variable localvariable instancevariable static<br />
+                                            <h2 class="ez-toc-section" id="bagaimana-struktur-pemograman-java">
+                            12. bagaimana struktur pemograman java</h2><br />
+                        Struktur Dasar Pemrograman Java<br /><br />￼<br /><br /><br />1. Komentar<br />   Komentar adalah baris program yang tidak ikut di proses atau di kerjakan  sebagai <br />   Suatu perintah oleh compiler atau interpreter.<br />   Baris komentar hanya berfungsi sebagai tag atau tanda keterangan tentang baris atau <br />   Blok(kumpulan) perintah di bawahnya. Contoh dari program di atas adalah:<br />                 //latihan java.<br />   Komentar di atas menggunakan // sebagai penanda komentar yang berarti satu baris<br />   Setelah tanda tersebut akan di anggap sebagai komentar yang panjang anda dapat<br />   Menggunakan tanda/* dan di akhiri tanda */<br />   contoh:<br />                  /* ini baris komentar hingga 2<br />                  Baris, ini yang pertama <br />                  Ini baris yang kedua*/<br />  Pada java anda dapat juga memberikan komentar yang akan di anggap sebagai <br />  Javadoc commets yang menggunakan tanda /** dan di akhiri */ komentar ini di <br />  Gunakan untuk momberikan dokumentasi tentang class, data dan method yang di <br />  gunakan.<br /><br />2. Blok<br />   Tanda brace (kurung kurawal) di dalam program yang membentuk sekelompok <br />   (satu blok) perintah atau komponen lain dalam program digunakan untuk membentuk<br />   Sebuah struktur pada program seperti class atau method.<br />   Contoh:<br />   Public class stya<br />  {   //awal blok clas<br />     <br />   } //akhir dari blok class<br /><br />3.Modifier<br />   Java menggunakan beberapa kata khusus tertentu yang disebut modifiers yang berfungsi <br />   Untuk menetapkan property dari data, method, atau class dan bagaimana cara <br />   Menggunakan nya.<br />   Macam-macam modifier ada 3 yaitu:<br />- Public<br />Bisa diakses oleh kelas .<br />-Protected<br />Bisa diakses tetapi hanya untuk kelas anak.<br />-Private<br />Tidak bias diakses.<br /><br />4.Class<br />Setiap program java setidaknya harus memiliki sebuah class karena pada java class adalah struktur program yang paling mendasar. Untuk melakukan pemograman dengan menggunakan bahasa java anda harus mengerti dasar-dasar pemograman berorientasi object.Dan mampu membuat class dan menggunakannya di dalam pemograman .<br />Format class :<br />Modifier class nama_calss{<br />              }<br /><br />Contoh:<br />Public class stya{<br />} <br /><br />Privat class stya{<br />}<br /><br />5. Method / Fungsi<br />Sebuah class harus memiliki setidaknya sebuah method.Class utama dalam program java harus memiliki method utama .Jadi method harus ada di dalam class dan tidak dapat berdiri sendiri seperti sebuah fungsi diluar class.<br />Format penulisan nya:<br />Modifier tipe_data_balikan nama_method (parameter){<br />}<br />Contoh :<br />  Public void stya(){ <br />  }<br />   <br />6. Main method<br />Seperti yang telah disebutkan diatas bahwa tiap class harus memiliki method , dan class utama dalam program juga harus memiliki method utama yang disebut juga main method.main method ini fungsinya mengontrol seluruh alur dari program sewaktu menjalankan tugasnya.<br />Contoh :<br />Public static void main (String args [] ){<br />System.out.println(“Selamat datang di stya bloegst”);<br />}<br /><br />7. Kata Kunci / Reserved Word<br /> Kata yang sudah memiliki arti tersendiri atau khusus bagi interpreter dan compiler java untuk diterjemahkan menjadi perintah kepada computer untuk mengerjakan sesuatu.<br />Contoh : Public, Static, Void, Privat, Protected<br /><br />8. Statement<br />  Statement mempresentasika sebuah aksi atau sebuah urutan aksi. dan di akhiri tanda ( ; )titik koma.<br />Contoh:<br />System.out.println(“Selamat datang di stya bloegst.....”);<br />Yang akan menghasilkan dicetak nya kalimat yang berada di dalam kurung dan diantara tnda petik ke console windows.<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-yg-di-maksud-dengan-bahasa-pemogramapa-kegunaannyaberikan-contoh-bahasa-pemogram-yg-kamu-ketahui">
+                            13. APA YG DI MAKSUD DENGAN BAHASA PEMOGRAM?APA KEGUNAANNYA?BERIKAN CONTOH BAHASA PEMOGRAM YG KAMU KETAHUI</h2><br />
+                        bahasa pemrograman adalah bahasa komputer yang berisi intruksi standar untuk memerintah komputer<br />contohnya yg saya tahu itu ada PHP, HTML, CSS, JAVA SCRIPT, C++<br /><br />
+                                            <h2 class="ez-toc-section" id="bilangan-bulat-dalam-ilmu-matematika-di-dalam-pemograman-java-dinamakan-tipe-data">
+                            14. bilangan bulat dalam ilmu matematika, di dalam pemograman java dinamakan tipe data</h2><br />
+                        integer.<br /><br />maaf kalau salah<br />
+                                            <h2 class="ez-toc-section" id="kakak-bantu-hangman-ngarang%e2%80%8b">
+                            15. Kakak Bantu hangman ngarang​</h2><br />
+                        <p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>no. 10</p><p>c. c dan d</p><p>no. 11</p><p>b. &lt; C (saling bertolak belakang)</p><p>no. 12</p><p>d. &lt; A + &lt; C (karena &lt; A dan &lt; C merupakan sudut yang saling bertolak belakang, maka &lt; A = &lt; C)</p><p>no. 13</p><p>L = p . l</p><p>144 = 16 . l</p><p>l = 144/16</p><p>l = 9 cm</p><p>Jadi, lebarnya adalah 9 cm</p><p></p><p></p><p>Semoga Bermanfaat</p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>no. 10</p><p>c. c dan d</p><p>no. 11</p><p>b. &lt; C (saling bertolak belakang)</p><p>no. 12</p><p>d. &lt; A + &lt; C (karena &lt; A dan &lt; C merupakan sudut yang saling bertolak belakang, maka &lt; A = &lt; C)</p><p>no. 13</p><p>L = p . l</p><p>144 = 16 . l</p><p>l = 144/16</p><p>l = 9 cm</p><p>Jadi, lebarnya adalah 9 cm</p><p></p><p></p><p>Semoga Bermanfaat</p><br />
+                                            <h2 class="ez-toc-section" id="apa-fungsi-laringtolong-hangman-copy-dari-google-trims">
+                            16. Apa fungsi laring?
+Tolong hangman copy dari google :) Trims</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Laring adalah saluran pernapasan yang membawa udara menuju ke trakea Fungsi utama laring adalah untuk melindungi saluran pernapasan dibawahnya dengan cara menutup secara cepat pada stimulasi mekanik, sehingga mencegah masuknya benda asing ke dalam saluran napas.</p><p></p><p>Maaf kalau salah</p><p><strong>Jawaban:</strong></p><p> Untuk melindungi saluran pernapasan dibawahnya dengan cara menutup secara cepat pada stimulasi mekanik, sehingga mencegah masuknya benda asing ke dalam saluran napas.</p><p><strong>Penjelasan:</strong></p><p>Aku nggak copy dari google...</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-5-contoh-bahasa-pemograman">
+                            17. sebutkan 5 contoh bahasa pemograman?</h2><br />
+                        cobol,fortran,basic,pascal,visual basic1. Visual Basic<br />2. C<br />3. C++<br />4. JAVA<br />5. PASCAL<br /><br /><strong>Semoga terbantu!</strong><br />
+                                            <h2 class="ez-toc-section" id="pemograman-java-dengan-scanner-mohon-dibantu%e2%80%8b">
+                            18. pemograman java dengan scanner mohon dibantu​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Soal No. 1.</strong></p><p>import java.util.Scanner;</p><p></p><p>class Main {</p><p>    public static void main(String[] args) {</p><p>        Scanner scannerHarga = new Scanner(System.in);</p><p>        int harga;</p><p>        </p><p>        System.out.println("Masukkan Total Pembelian");</p><p>        harga = scannerHarga.nextInt();</p><p></p><p>        if (harga &lt; 50000) {</p><p>            System.out.println("Total Pembelian Rp. " + harga);</p><p>        }</p><p>        if (harga &gt;= 50000) {</p><p>            int diskon = harga * 20 / 100;</p><p>            int totalDiskon = harga - diskon;</p><p>            System.out.println("Total Pembelian Rp. "+ totalDiskon);</p><p>            System.out.println("Diskon Rp. " + diskon);</p><p>        }</p><p>    }</p><p>}</p><p></p><p><strong>Soal No. 2.</strong></p><p>import java.util.Scanner;</p><p></p><p>class Main {</p><p>    public static void main(String[] args) {</p><p>        Scanner scannerHarga = new Scanner(System.in);</p><p>        int harga;</p><p></p><p>        System.out.println("Masukkan Total Pembelian");</p><p>        harga = scannerHarga.nextInt();</p><p></p><p>        if (harga &gt;= 50000) {</p><p>            int diskon = harga * 20 / 100;</p><p>            int totalDiskon = harga - diskon;</p><p>            System.out.println("Total Pembelian Rp. "+ totalDiskon);</p><p>            System.out.println("Diskon Rp. " + diskon);</p><p>        } else {</p><p>            System.out.println("Total Pembelian Rp. " + harga);</p><p>        }</p><p>    }</p><p>}</p><p><strong>Penjelasan:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikan-3-contoh-variabel-dalam-pemograman">
+                            19. Berikan 3 contoh variabel dalam pemograman  </h2><br />
+                        Variabel adalah suatu tempat yang digunakan untuk menampung data atau konstanta di memori yang mempunyai nilai yang dapat berubah–ubah selama proses program.<br /><br />Berikut adalah aturan atau sifat yang dimiliki variabel:<br /><br />    Variabel hanya digunakan untuk menyimpan data sementara<br /><br />    Variabel hanya mampu menyimpan satu data atau nilai<br /><br />contoh :<br /><br />var <br />nama, alamat : string; <br />umur : integer; <br />
+                                            <h2 class="ez-toc-section" id="%e2%80%a2-seorang-programmer-professional-biasanya-menggunakan-bahasa-pemogramandalam-bentuk-tulisan-yang-disebut-juga-bahasa-pemograman-%e2%80%a2-bahasa-pemograman-yang-ditampilkan-dalam-bentuk-e">
+                            20. • Seorang programmer professional biasanya menggunakan bahasa pemogramandalam bentuk tulisan yang disebut juga bahasa pemograman ....• Bahasa pemograman yang ditampilkan dalam bentuk elemen grafis disebut ....• Contoh bahasa pemograman visual yang dapat digunakan siswa untuk belajarpemograman adalah ....​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>- pseudocode</p><p>- GUI</p><p>- MS Visual Sudio</p><p></p><p><strong>Penjelasan:</strong></p><p>semoga betul yang dimaksud ya, soalnya bahasanya ambigu</p><br />
+                                            <h2 class="ez-toc-section" id="untuk-menguji-dua-buah-nilai-data-sebaiknya-menggunakan-operasi-relasional-apa-dalam-pemograman-java-jelaskan%e2%80%8b">
+                            21. untuk menguji dua buah nilai data sebaiknya menggunakan operasi relasional apa dalam pemograman java? jelaskan!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Menggunakan Operasi relasi == sama dengan atau (</p><p>artinya jika 2 buah nilai data memiliki value yang sama akan mengembalikan return  value berupa boolean<strong> true</strong> , jika 2 nilai data tidak sama mengembalikan return value<strong> false</strong></p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-pemograman-struktural-dan-contoh-bahasa-pemrogramantuliskan-pradikma-pemograman-struktural%e2%80%8b">
+                            22. tuliskan pemograman struktural dan contoh bahasa pemrograman/tuliskan pradikma pemograman struktural​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Paradigma adalah sudut pandang tertentu yang digunakan terhadap suatu problem, realitas, keadaan dan sebagainya. Paradigma membatasi dan mengkondisikan jalan berpikir seseorang, mengarahkannya terhadap beberapa atribut dan mengabaikan atribut lain, sehingga paradigma hanya memberikan pandangan yang terbatas terhadap sebuah realitas.
+</strong></p><p><strong>
+</strong></p><p><strong>Dalam pemrograman dikenal beberapa paradigma, yaitu:
+</strong></p><p><strong>
+</strong></p><p><strong>1. Paradigma Pemrograman Prosedural atau Imperatif
+</strong></p><p><strong>Paradigma ini didasari oleh konsep mesin Von Newman (stored program concept) sekelompok tempat penyimpanan (memori), yang dibedakan menjadi memori instruksi dan memori data, masing-masing memori tersebut dapat diberi nama dan nilai, selanjutnya instruksi akan dieksekusi satu persatu secara sekuensial oleh sebuah proses tunggal.
+</strong></p><p><strong>
+</strong></p><p><strong>Program dalam paradigma ini berdasarkan pada struktur informasi di dalam memori dan manipulasi dari informasi yang disimpan tersebut. Kata kunci yang sering digunakan dalam paradigma ini adalah:
+</strong></p><p><strong>
+</strong></p><p><strong>      Algoritma + Struktur Data = Program
+</strong></p><p><strong>
+</strong></p><p><strong>Kelebihan dari paradigma ini adalah efisiensi eksekusi karena lebih dekat dengan konsep mesin, kekurangannya adalah batasan yang sangat mengikat sehingga terkadang menyulitkan programmer yang tidak terbiasa.
+</strong></p><p><strong>
+</strong></p><p><strong>Contoh bahasa pemrogaman yang menggunakan paradigma prosedural atau imperatif adalah: Algol, Pascal, Fortran, Basic, Cobol, C, dsb…
+</strong></p><p><strong>
+</strong></p><p><strong>2. Paradigma Pemrograman Fungsional
+</strong></p><p><strong>Paradigma ini didasari oleh konsep pemetaan dan fungsi pada matematika, fungsi dapat berupa fungsi ”primitif”, atau komposisi dari fungsi-fungsi lain yang telah terdefinisi. Dalam paradigma ini, diasumsikan bahwa akan selalu ada fungsi-fungsi dasar yang dapat digunakan, sehingga penyelesaian masalah berdasarkan pada fungsi-fungsi yang telah tersedia tersebut. Jadi dasar pemecahan masalah adalah transformasional, semua kelakuan program adalah suatu rantai transformasi dari sebuah keadaan awal menuju ke suatu rantai keadaan akhir, yang mungkin melalui keadaan antara, melalui aplikasi fungsi.
+</strong></p><p><strong>
+</strong></p><p><strong>Paradigma fungsional tidak mempermasalahkan memorisasi dan struktur data, tidak ada pemilahan antara data dan program, tidak ada lagi pengertian tentang ”variabel”. Programmer tidak perlu tahu bagaimana mesin mengeksekusi atau bagaimana informasi disimpan dalam memori, setiap fungsi seperti ”kotak hitam”, yang perlu diperhatikan hanya keadaan awal dan akhir, sebuah program besar dihasilkan dengan menggabungkan fungsi-fungsi yang telah tersedia. Program yang dihasilkan dengan bahasa pemrograman yang menggunakan paradigma ini biasanya membutuhkan waktu pemrosesan yang lebih lama dibandingkan dengan yang menggunakan paradigma prosedural karena dibutuhkan waktu lebih untuk memproses fungsi-fungsi yang digunakan dalam membuat program.
+</strong></p><p><strong>
+</strong></p><p><strong>Contoh bahasa pemrograman yang menggunakan paradigma fungsional adalah LOGO, APL dan LISP.
+</strong></p><p><strong>
+</strong></p><p><strong>3. Paradigma Pemrograman Deklaratif, Predikatif atau Lojik
+</strong></p><p><strong>Paradigma ini didasari atas pendefinisian relasi antar individu yang dinyatakan sebagai predikat. Sebuah program lojik adalah kumpulan aksioma (Fakta dan aturan deduksi.
+</strong></p><p><strong>
+</strong></p><p><strong>Dalam paradigma ini, programmer menguraikan sekumpulan fakta dan aturan-aturan (inference rules). Ketika program dieksekusi, pemakai akan mengajukan pertanyaan, selanjutnya program akan menggunakan aturan deduksi dan mencocokkan pertanyaan dengan fakta-fakta yang ada untuk menjawab pertanyaan.
+</strong></p><p><strong>
+</strong></p><p><strong>Contoh bahasa pemrograman yang menggunakan paradigma ini adalah: Prolog.
+</strong></p><p><strong>
+</strong></p><p><strong>4. Paradigma Berorientasi Object (Object Oriented)
+</strong></p><p><strong>Paradigma Pemrograman Berorientasi Objek (OOP) menggunakan konsep class dan object, object adalah instansiasi dari class, setiap object akan mempunyai attribute dan method, masing-masing object dapat berinteraksi dengan object lainnya meskipun berasal dari class yang berbeda.
+</strong></p><p><strong>
+</strong></p><p><strong>mempunyai hirarki artinya sebuah class dapat diturunkan menjadi sebuah class baru yang juga memiliki attribut dan method class diatasnya. Dengan begitu dalam paradigma ini dikenal konsep modularitas, penggunaan kembali (reuse) serta kemudahan modifikasi.
+</strong></p><p><strong>
+</strong></p><p><strong>Contoh bahasa pemrograman yang menggunakan paradigma ini adalah: Smalltalk, Eifel, Delphi, Java.
+</strong></p><p><strong>
+</strong></p><p><strong>5. Paradigma Konkuren
+</strong></p><p><strong>Paradigma ini didasari oleah kenyataan bahwa dalam keadaan nyata, sebuah sistem komputer harus menangani beberapa program (task) yang harus dieksekusi secara bersamaan dalam sebuah lingkungan baik mono ataupun multi processor. Dalam paradigma ini programmer tidak lagi berpikir sekuensial, melainkan harus menangani komunikasi dan sikronisasi antar task.
+</strong></p><p><strong>
+</strong></p><p><strong>Masing-masing paradigma tersebut mempunyai strategi analisa yang khusus untuk memecahkan persoalan. Setiap paradigma mempunyai kekurangan dan kelebihan sehingga tidak semua persoalan dapat dipecahkan dengan satu jenis paradigma, sehingga diperlukan analisis secara menyeluruh terhadap persoalan yang akan diselesaikan sebelum menentukan paradigma pemrograman seperti apa yang akan digunakan untuk menyelesaikan persoalan tersebut.
+</strong></p><p><strong>
+</strong></p><p><strong></strong></p><p><strong>Penjelasan:</strong></p><strong>Semoga Membantu</strong><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikan-contoh-bahasa-pemograman">
+                            23. berikan contoh bahasa pemograman</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Bahasa pemrograman adalah bahasa yang dapat menerjemahkan perintah-perintah yang diberikan pengguna menjadi bahasa yang dapat dipahami dan dijalankan mesin komputer. Seperti diketahui komputer hanya mengerti intruksi dalam bentuk biner (bit bit bernilai 0 atau 1). :)</p><p><strong>Penjelasan:</strong></p><p></p><p><strong>Jawaban:</strong></p><p>1.  Fortran (formula translation)</p><p>2. LISP ( List Processing) </p><p>3. Turbo Pascal</p><p>4. dBase</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="pemograman-contoh-fungsi-prosedur">
+                            24. pemograman contoh fungsi prosedur</h2><br />
+                        prosedur apa dulu??<br />seperti prosedur pembuatan program kasir kah??<br /><br />
+                                            <h2 class="ez-toc-section" id="hal-yang-di-larang-ketika-menuliskan-syntax-bahasa-pemograman-java-saat-membangun-animasi-menggunakan-greenfoot-adalah">
+                            25. Hal yang di larang ketika menuliskan syntax bahasa pemograman java saat membangun animasi menggunakan Greenfoot adalah</h2><br />
+                        <p>Yang tidak boleh dalam menuliskan syntax bahasa <strong>pemograman java </strong>saat membangun animasi menggunakan Greenfoot ialah cara penulisan class huruf berada diantara kurung kurawa</p><strong>Penjelasan:</strong><p><strong>Java </strong>adalah bahasa pemrograman yang umum digunakan untuk mengembangkan perangkat lunak, aplikasi Android, dan bagian back-end situs web. Java juga dikenal dengan mottonya "Tulis Sekali, Jalankan Dimana Saja". Ini berarti Anda dapat menjalankan Java  di berbagai platform tanpa harus menyesuaikannya dengan platform Anda. <strong>Java </strong>adalah seperangkat perangkat lunak  dan spesifikasi komputer yang dikembangkan oleh Sun Microsystems dan kemudian diakuisisi oleh Oracle Corporation yang menyediakan sistem untuk mengembangkan  perangkat lunak aplikasi dan mengimplementasikannya dalam  lingkungan komputasi lintas platform. Perbedaan antara <strong>Java dan JavaScript</strong> adalah perbedaan mendasar yang perlu dipahami. Java adalah bahasa yang digunakan untuk melakukan aktivitas pemrograman, dan JavaScript adalah bahasa yang digunakan untuk melakukan aktivitas skrip.</p><p></p>Pelajari lebih lanjut<p>Pelajari lebih lanjut materi tentang penjelasan tentang pemrograman java: https://brainly.co.id/tugas/33596019</p><p></p><p>#BelajarBersamaBrainly</p><br />
+                                            <h2 class="ez-toc-section" id="konsep-pre-defined-class-dengan-pemograman-java">
+                            26. konsep Pre-defined class dengan pemograman java</h2><br />
+                        <strong>[jawaban]<br /></strong><strong><br />Mata Pelajaran: Teknologi Informasi<br /></strong><strong>Kata kunci: Java, Pemrogaman<br /></strong><strong><br />• Jawaban pendek:<br /><br /></strong>Konsep pre-defined class dengan pemograman java<br /><br /><strong>Java class library (Java API) memiliki banyak sekali kelas (Java predefined classes) yang diletakkan di paket (package) untuk dapat dipergunakan kembali di program. Paket tersebut digunakan untuk mengelompokkan kelas-kelas yang mempunyai kemiripan fungsi (related class). Kelas-kelas Java yang akan digunakan di dalam program, terlebih dahulu harus diimpor beserta dengan nama paket di mana kelas tersebut berada, kecuali untuk kelas Java yang berada di paket java.lang seperti kelas JOptionPane yang berada di paket javax.swing dan kelas DecimalFormat yang berada di paket java.text. </strong><strong> </strong><br />
+                                            <h2 class="ez-toc-section" id="contoh-simple-coding-pemograman%e2%80%8b">
+                            27. contoh simple coding pemograman​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>&lt;!DOCTYPE html&gt;</p><p>&lt;html&gt;</p><p>&lt;head&gt;</p><p>  &lt;title&gt;Simple Coding &lt;/title&gt;</p><p>&lt;/head&gt;</p><p>&lt;body&gt;</p><p> &lt;h1&gt;Simple Coding Pemrogaman</p><p>&lt;/body&gt;</p><p>&lt;/html&gt;</p><br />
+                                            <h2 class="ez-toc-section" id="ayoo-yang-jago-dalam-pemograman-bahasa-javaada-yang-bisa-buat-tampilan-seperti-ini-ga-dengan-java-tolong-kasih-scriptnya-lengkap">
+                            28. Ayoo yang jago dalam pemograman bahasa javaAda yang bisa buat tampilan seperti ini ga ? dengan java.Tolong kasih scriptnya lengkap..</h2><br />
+                        Nih :<br /><br />public class bintang {
+ protected int batas;
+
+ public bintang(int batas){
+ this.batas = batas;
+ }
+
+}
+
+<br /><br />yang ini nama in dengan = “BintangAnak.java”<br /><br />&lt;/pre&gt;
+public class bintangAnak extends bintang{
+
+public bintangAnak(int batas) {
+ super(batas);
+ }
+
+ public void cetak1(){
+ System.out.println("\nOutput bentuk-1");
+ for(int i=0; i&lt;batas; i++){
+ for(int j= batas; j&gt;(batas-i-1); j--){
+ System.out.print("* ");
+ }
+
+ System.out.println();
+ }
+
+ }
+
+ public void cetak2(){
+ System.out.println("\nOutput bentuk-2");
+ for(int i=(batas-1); i&gt;0; i--){
+ for(int j=(batas-i-1); j&gt;0 ; j--){
+ System.out.print("");
+ }
+ for(int j=i; j&gt;=0; j--){
+ System.out.print("*");
+ }
+ System.out.println();
+ }
+
+ for(int i=0; i&lt;batas; i++){
+ for(int j=0; j&lt;batas -i-1; j++){
+ System.out.print("");
+ }
+ for(int j=0; j&lt;=i; j++){
+ System.out.print("*");
+ }
+ System.out.println();
+ }
+ }
+
+}
+&lt;pre&gt;<br /> <br />lha kalo yang ini main programnya…ntr kalo mau compile file yang ini gan yang di compile…..<br /><br />import java.io.*;
+public class mainProgram {
+
+ public static void main(String [] args)throws Exception {
+
+ DataInputStream arip = new DataInputStream(System.in);
+ System.out.print("Masukkan angka = ");
+ int batas = Integer.parseInt(arip.readLine());
+
+ bintangAnak tes = new bintangAnak(batas);
+ tes.cetak1();
+ tes.cetak2();
+ }
+}<br /><br /><br />klik link ini gan :<br />mellyputrid.blogspot.com/2012/03/contoh-program-bintang.html<br /><br />contoh lainnya :<br />arraydalamprogram.blogspot.com/2010/09/contoh-program-script-java.html<br /><br />
+                                            <h2 class="ez-toc-section" id="bagian-kode-program-handling-error-yang-akan-mencoba-mengeksekusi-baris-statement-walaupun-memiliki-kemungkinan-error-dlm-pemograman-java-adalah%e2%80%8b">
+                            29. Bagian kode program handling error yang akan mencoba mengeksekusi baris statement walaupun memiliki kemungkinan error dlm pemograman java adalah??​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>try.. catch</p><p><strong>Penjelasan:</strong></p><p>mff kl salah</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perbedaan-dan-keunggulan-fitur-selection-pada-bahasa-pemograman-java">
+                            30. Jelaskan perbedaan dan keunggulan fitur selection pada bahasa pemograman java!</h2><br />
+                        <p> </p><p></p><p> </p><p>Bukan rahasia lagi bahwa programming (pemrograman) adalah topik yang sulit untuk benar-benar dikuasai. Semakin banyak orang di seluruh dunia memasuki bidang Ilmu Komputer setiap harinya. Namun, sebelum memulai, kita harus memilih bahasa pemrograman yang ingin untuk dipelajari</p><p></p><p>Namun, sebelum memulai, kita harus memilih bahasa pemrograman yang ingin untuk dipelajari. Dalam artikel perbandingan C++ VS Java ini, kita akan membandingkan dan membedakan dua bahasa pemrograman populer yang beredar di luar sana</p><p></p><p>Artikel perbandingan benar-benar dapat membantu kamu untuk memahami bahasa pengkodean (coding) yang paling umum digunakan, sehingga kamu mampu memutuskan mana yang paling sesuai dengan keinginan dan kebutuhan kamu</p><p></p><p>semoga bermanfaat ya</p><p>tolong jadikan jawaban tercerdas ya pliss nanti aku follow terima kasih </p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-contoh-dari-variabel-pemograman-dasar">
+                            31. sebutkan contoh dari "variabel", pemograman dasar??</h2><br />
+                        Pemprograman dasar yang gimana? Kalo Delphi gini:<br /><br />Var<br />angka : integer;<br />huruf : string;<br /><br /><br />integer dan string sendiri adalah type data (atau type variable). integer itu bilangan bulat, sedangkan string adalah teks. ada type data yang lain juga, seperti real, boolean, dll... (tergantung bahasa pemprograman apa yang digunakan)<br /><br />yang jelas, variable itu buat nyimpen data/nilai, dan bisa di panggil/eksekusi.<br /><br /><br />
+                                            <h2 class="ez-toc-section" id="apa-itu-logika-pemogramancontoh-logika">
+                            32. Apa Itu Logika Pemograman?
+Contoh Logika?</h2><br />
+                        Cabang dari ilmu pemrograman yang mempelajari tentang runtutan cara berpikir ( algoritma ). Logika dalam pemrograman juga sangat beragam, misalnya seperti penggunaan notasi konjungsi dalam perintah "if", dan logika aritmatika.<br /><br />Misal, dalam c++ :<br /><br />#include &lt;iostream&gt;<br />using namespace std;<br /><br />int main() {<br />int b;<br /><br />cin &gt;&gt; b ;<br /><br />if(b &gt; 0){<br /><br />cout &lt;&lt; "Lebih dari 0" &lt;&lt; endl;<br />} else {<br />cout &lt;&lt; "tidak lebih dari 0" &lt;&lt; endl;<br /><br />}<br />
+                                            <h2 class="ez-toc-section" id="contoh-program-dari-pemograman-c">
+                            33. contoh program dari pemograman c ?</h2><br />
+                        Mencari luas segitiga  <br /><br />#include  main()<br />  {  <br />  int alas,tinggi; <br />  float luas;  <br />  clrscr();  <br />  printf("inputkan alas segitiga:");  <br />  scanf("%d",&amp;alas);  <br />  printf("inputkan tinggi segitiga:");  <br />  scanf("%d",&amp;tinggi); <br />  luas=alas*tinggi*0.5;  <br />  printf("luas segitiga=%.2f\n",luas);  <br />  getch(); <br /> }<br />ini nih program yang aku buat sendiri dan udah berhasil dijalankan.<br /><br />#include &lt;stdio.h&gt;<br />int main()<br />{	<br />     printf("Nama aku adalah Ranaandriyanie");	<br />     return 0;<br />}<br /><br />semoga membantu ^-^<br />#cmiiw Selamat siang.<br />
+                                            <h2 class="ez-toc-section" id="kerjakan-soal-di-bawah-ini-dengan-jelas-dan-benar-1-bagaimanakah-cara-penulisan-string-dalam-pemograman-java-jelaskan-%e2%80%8b">
+                            34. Kerjakan soal di bawah ini dengan jelas dan benar !1. Bagaimanakah cara penulisan string dalam pemograman Java? Jelaskan !​</h2><br />
+                        <p><strong>Penjelasan:</strong></p><p>String adalah tipe data yang menampung kumpulan karakter, seperti “aku”, “kamu” atau “Duniailkom”. Sebuah kalimat juga terhitung sebagai tipe data string seperti “Saya sedang belajar bahasa Java di Duniailkom”.</p><p></p><p>Pada bahasa Java, tipe data string dibuat menggunakan keyword String. Selain itu teks string ini harus berada di dalam tanda kutip dua ( ” ).</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-anda-ketahui-tentang-bahasa-pemograman-java-jelaskan">
+                            35. apa yang anda ketahui tentang bahasa pemograman java?, jelaskan</h2><br />
+                        <p>Jawaban:</p><p>Java merupakan salah satu bahasa pemrograman yang berparadigma berorientasi objek. </p><br />
+                                            <h2 class="ez-toc-section" id="yang-termasuk-kedalam-bahasa-pemograman-adalah-a-javab-ccc-pascald-semua-benar">
+                            36. Yang termasuk kedalam bahasa pemograman adalah...
+A. Java
+B. C/C++
+C. Pascal
+D. Semua Benar</h2><br />
+                        d. semua benar<br />*maaf kalo salah*D. Semua benar, maaf klo salah yah<br />
+                                            <h2 class="ez-toc-section" id="bagian-kode-program-handling-error-yang-akan-mencoba-mengeksekusi-baris-statement-walaupun-memiliki-kemungkinan-error-dlm-pemograman-java-adalah%e2%80%8b">
+                            37. Bagian kode program handling error yang akan mencoba mengeksekusi baris statement walaupun memiliki kemungkinan error dlm pemograman java adalah??​.</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>try.. catch</strong></p><p><strong>Penjelasan:</strong></p><p>jadikan jawaban terbaik ya</p><br />
+                                            <h2 class="ez-toc-section" id="yang-bukan-termasuk-perangkat-lunak-pemograman-adalahpilih-salah-satua-javab-network-utilityc-cssd-html">
+                            38. Yang bukan termasuk perangkat lunak pemograman adalah
+Pilih salah satu:
+a. Java
+b. Network utility
+c. Css
+d. Html</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>C. css, btw maaf klw salah</p><p><strong>Penjelasan:</strong></p><p>maaf klw salah ya</p><p><strong>b. Network utility</strong></p><p><strong></strong></p><p>Java adalah <strong>bahasa pemrograman</strong> yang sering dipakai untuk desktop app </p><p>HTML sebenarnya bukan bahasa pemrograman melainkan <strong>Hypertext Markup Language</strong> </p><p>CSS juga sebenarnya bukan bahasa pemrograman melainkan <strong>Cascading Style Sheet</strong> untuk memberikan style pada HTML</p><p></p><p>kalau Network utility tidak termasuk dari ketiga tersebut</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="berikut-ini-yang-tidak-termasuk-bahasa-pemograman-adalah-a-javab-jdkc-jbuilderd-borland%e2%80%8b">
+                            39. Berikut ini yang tidak termasuk bahasa pemograman adalah...a) Javab) JDKc) Jbuilderd) Borland​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>j D K kalau tidak salah.monmaaf kalau salah </p><br />
+                                            <h2 class="ez-toc-section" id="teknik-yang-digunakan-untuk-mengulang-suatu-blok-kode-dalam-bahasa-pemograman-java-adalah">
+                            40. Teknik yang digunakan untuk mengulang* suatu blok kode dalam bahasa pemograman java adalah?</h2><br />
+                        loop<br /><br /># mohon maaf bila kurang tepatbiasanya<br />LOOP<br />kalo salah dimaafkan<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/dRzhwwXy-Sk?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-proposal-penelitian-untuk-pgsd.html">Contoh Judul Proposal Penelitian Untuk Pgsd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/format-jurnal-dan-contohnya.html">Format Jurnal Dan Contohnya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-penyesuaian-myob.html">Contoh Jurnal Penyesuaian Myob</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-laporan-realisasi-anggaran-dan-jurnal-penutup.html">Contoh Laporan Realisasi Anggaran Dan Jurnal Penutup</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-karya-ilmiah-tentang-khasiat-bawang-dayak.html">Contoh Karya Ilmiah Tentang Khasiat Bawang Dayak</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-artikel-penelitian-kepustakaan.html">Contoh Judul Artikel Penelitian Kepustakaan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-hasil-analisis-jurnal-nasional-pendidikan.html">Contoh Hasil Analisis Jurnal Nasional Pendidikan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-perhitungan-jurnal-kom-aratif.html">Contoh Perhitungan Jurnal Kom Aratif</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-soal-jurnal-penyesuaian-sma.html">Contoh Soal Jurnal Penyesuaian Sma</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skripsi-dan-abstraknya.html">Contoh Judul Skripsi Dan Abstraknya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skripsi-public-relations.html">Contoh Judul Skripsi Public Relations</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-skripsi-tentang-pengembangan.html">Contoh Judul Skripsi Tentang Pengembangan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-proposal-studi-jurnal-word.html">Contoh Proposal Studi Jurnal Word</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-proposal-magang-di-fbs-hotel.html">Contoh Judul Proposal Magang Di Fbs Hotel</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-pendahuluan-jurnal-kecelakaan-pada-ketenagakerjaan.html">Contoh Pendahuluan Jurnal Kecelakaan Pada Ketenagakerjaan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-penelitian-pendidikan-kimia.html">Contoh Judul Penelitian Pendidikan Kimia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-jurnal-saldo-awal-bulan.html">Contoh Jurnal Saldo Awal Bulan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-teks-eksplanasi-berjudul-pengangguran.html">Contoh Teks Eksplanasi Berjudul Pengangguran</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-judul-makalah-diklat-pim-iv.html">Contoh Judul Makalah Diklat Pim Iv</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://unduhjurnal.github.io/contoh-diagram-alir-review-jurnal.html">Contoh Diagram Alir Review Jurnal</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://unduhjurnal.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://unduhjurnal.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://unduhjurnal.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/1d/a7/d8/1da7d80839196eccc4a624ab91e5ccbf.js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
